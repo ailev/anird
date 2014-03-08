@@ -1,2 +1,2 @@
-Папку GoogleExt кладем в папку Extensions программы
-Файл patterns_external.py кладем в папку patterns программы
+п»їРџР°РїРєСѓ GoogleExt РєР»Р°РґРµРј РІ РїР°РїРєСѓ Extensions РїСЂРѕРіСЂР°РјРјС‹
+Р¤Р°Р№Р» patterns_external.py РєР»Р°РґРµРј РІ РїР°РїРєСѓ patterns РїСЂРѕРіСЂР°РјРјС‹
