@@ -39,6 +39,8 @@ def getrout(address1, address2):
 
 @public('collectors.GoogleRoute')
 def handler(params, pattern_name):
+#	print(pattern_name)
+	timestamp =  time.strftime('%X %x')
 	if 'name_loc1' in params:
 		if 'name_loc2' in params:
 			data = getrout(params['name_loc1'], params['name_loc2'])
@@ -61,7 +63,10 @@ def handler(params, pattern_name):
 				all_stops.append(end_loc)
 
 				for i in range(len(all_stops)-1):
-					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1]})
+#to test external date assignment
+#					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],})
+# to test internal date assignment
+					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],  'creation_date' : timestamp})
 			else:
 				print('No routes found')
 				

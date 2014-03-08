@@ -32,7 +32,7 @@ patterns.append({
 
 patterns.append({
 'name': 'GoogleRoute', 
-'signature': {'id_route' : 'is in route', 'name_route' :'', 'id_loc1': 'connected to', 'name_loc1': '', 'id_loc2': 'connected to', 'name_loc2': ''}, 
+'signature': {'id_route' : 'is in route', 'name_route' :'', 'id_loc1': 'connected to', 'name_loc1': '', 'id_loc2': 'connected to', 'name_loc2': '', 'creation_date' : '',}, 
 'options': [    
     {'name': 'base', 
      'parts': [ 
@@ -65,6 +65,55 @@ patterns.append({
                'type' : part2.AssemblyOfIndividual, 
                'id_loc2' : 'hasPart',
                'id_route' : 'hasWhole', 
+          },   
+     ] 
+     }, 
+    {'name': 'metadata', 
+     'parts': [ 
+          { 
+               'id_route': 'self', 
+               'name_route': 'label', 
+               'type': 'http://posccaesar.org/rdl/RDS11589310',
+          },
+          { 
+               'id_route': 'self', 
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },
+          { 
+               'id_loc1': 'self', 
+               'name_loc1': 'label', 
+               'type': 'http://posccaesar.org/rdl/RDS436813841',
+          }, 
+          { 
+               'id_loc1': 'self', 
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },
+          { 
+               'id_loc2': 'self', 
+               'name_loc2': 'label', 
+               'type': 'http://posccaesar.org/rdl/RDS436813841',
+          },
+          { 
+               'id_loc1': 'self', 
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },
+          { 
+               'type' : part2.IndirectConnection, 
+               'id_loc1' : 'hasSide1',
+               'id_loc2' : 'hasSide2', 
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },   
+          { 
+               'type' : part2.AssemblyOfIndividual, 
+               'id_loc1' : 'hasPart',
+               'id_route' : 'hasWhole', 
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },   
+          { 
+               'type' : part2.AssemblyOfIndividual, 
+               'id_loc2' : 'hasPart',
+               'id_route' : 'hasWhole',
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate', 
           },   
      ] 
      }, 
