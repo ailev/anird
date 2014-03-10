@@ -94,7 +94,7 @@ patterns.append({
                'type': 'http://posccaesar.org/rdl/RDS436813841',
           },
           { 
-               'id_loc1': 'self', 
+               'id_loc2': 'self', 
                'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
           },
           { 
