@@ -64,9 +64,9 @@ def handler(params, pattern_name):
 
 				for i in range(len(all_stops)-1):
 #to test external date assignment
-#					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],})
+					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],})
 # to test internal date assignment
-					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],  'creation_date' : timestamp})
+#					yield({'name_route' : name_route, 'name_loc1': all_stops[i], 'name_loc2': all_stops[i+1],  'creation_date' : timestamp})
 			else:
 				print('No routes found')
 				
