@@ -94,25 +94,37 @@ patterns.append({
                'type': 'http://posccaesar.org/rdl/RDS436813841',
           },
           { 
-               'id_loc1': 'self', 
+               'id_loc2': 'self', 
                'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
           },
           { 
+               'conn' : 'self',
                'type' : part2.IndirectConnection, 
                'id_loc1' : 'hasSide1',
                'id_loc2' : 'hasSide2', 
-               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
-          },   
+          }, 
           { 
+               'conn' : 'self',
+               'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
+          },  
+          { 
+               'ass1' : 'self',
                'type' : part2.AssemblyOfIndividual, 
                'id_loc1' : 'hasPart',
                'id_route' : 'hasWhole', 
+          }, 
+          { 
+               'ass1' : 'self',
                'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate',
           },   
           { 
+               'ass2' : 'self',
                'type' : part2.AssemblyOfIndividual, 
                'id_loc2' : 'hasPart',
                'id_route' : 'hasWhole',
+          },   
+          { 
+               'ass2' : 'self',
                'creation_date' : 'http://posccaesar.org/rdl/hasCreationDate', 
           },   
      ] 
