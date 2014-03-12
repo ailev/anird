@@ -54,8 +54,9 @@ class xTextMenuPreview:
     		flask_thread.stop()
     		flask_thread = None
     	else:
-    		flask_thread = FlaskThread()
-    		flask_thread.start()
+            flask_thread = FlaskThread()
+            flask_thread.daemon = True
+            flask_thread.start()
 
     @staticmethod
     def Update(action):
