@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+  	<strong>{{name}}</strong><p>
+	{% for uri, name in items.iteritems() %}
+	<a href="{{url_for('point')+"?uri="+uri}}">{{name}}</a><br>
+  	{% endfor %}
+{% endblock %}
