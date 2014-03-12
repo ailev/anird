@@ -78,14 +78,15 @@ def hello():
 		return traceback.format_exc()
 
 COLLECT_QUERY = """
-i=builder.collect(type=patterns.GoogleRoute.base, name_loc1=val1, name_loc2=val2)
-items = find(id = i, type='http://posccaesar.org/rdl/RDS11589310')
 result = {}
-for v in items:
-	try:
-		result[v] = find(id=v, label=out).pop()
-	except:
-		pass
+i=builder.collect(type=patterns.GoogleRoute.base, name_loc1=val1, name_loc2=val2)
+if i:
+	items = find(id = i, type='http://posccaesar.org/rdl/RDS11589310')
+	for v in items:
+		try:
+			result[v] = find(id=v, label=out).pop()
+		except:
+			pass
 """
 
 ROUTE_QUERY = """
