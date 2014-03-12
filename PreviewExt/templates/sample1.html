@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+{{
+ec.ExecutePythonString2("""
+til.sparql_query('CONSTRUCT { ?s ?p ?o } WHERE { ?s ?p ?o }')
+with context('til'):
+	items=find(type = patterns.TILSample)
+""")
+}}
+{%for item in ec.GetLocals()['items'].IterResults2()%}
+  	<a name="{{item['item']}}"></a>
+  	<strong>{{item['label']}}</strong>
+  	<table class="box-table">
+  		<tbody>
+  			<tr>
+  				<th style="text-align: left;" width="25%">Type</th>
+  			</tr>
+  			<tr class="$odd_even">
+  				<td class="property">{{item['p2type']}}</td>
+			</tr>
+		</tbody>
+	<table class="box-table" style="width: 593px; height: 128px;">
+		<tbody>
+			<tr>
+				<th style="text-align: left;" width="25%">
+					<p>Property</p>
+				</th>
+				<th style="text-align: left;">Value</th>
+			</tr>
+			<tr class="$odd_even">
+				<td class="property">label</td>
+				<td class="value">{{item['label']}}</td>
+			</tr>
+			<tr class="$odd_even">
+				<td class="property">annSource</td>
+				<td class="value">{{item['source']}}</td>
+			</tr>
+			<tr class="$odd_even">
+				<td class="property">hasCreationDate</td>
+				<td class="value">{{item['date']}}</td>
+			</tr>
+			<tr class="$odd_even">
+				<td class="property">annStewardshipContact</td>
+				<td class="value">{{item['stw']}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>&nbsp;</p>
+  {% endfor %}
+{% endblock %}

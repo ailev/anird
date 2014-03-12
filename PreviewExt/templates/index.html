@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="{{ url_for('q') }}" method=get>
+    <dl>
+      <dt>Find:
+        <input type=text name=text>
+        <input type=submit>
+      </dt>
+    </dl>
+  </form>
+{% endblock %}
