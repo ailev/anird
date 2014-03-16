@@ -1,0 +1,4 @@
+# these are the python modules required
+requests>=2.2.1
+tornado
+flask
