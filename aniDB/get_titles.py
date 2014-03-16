@@ -8,7 +8,7 @@ import time
 base_dir = os.path.dirname( __file__ );
 
 # test values
-if 1:
+if 0:
 	TITLES_XML_GZ_URL = 'http://ahinea.com/qvwm/qvwm-1.1.12-9-IKu.tar.gz'
 	TITLES_XML_GZ_LOCALFILE = 'tmp/qvwm-1.1.12-9-IKu.tar.gz'
 	TITLES_XML_LOCALFILE    = 'tmp/qvwm-1.1.12-9-IKu.tar'
