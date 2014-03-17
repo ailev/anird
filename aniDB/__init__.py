@@ -29,7 +29,7 @@ class AniDB():
 			return filename_xml
 			
 		# request from the HTTP API
-		url = ANIDB_HTTP_API_URL + "request=anime&aid=" + id
+		url = ANIDB_HTTP_API_URL + "request=anime&aid=%d" % id
 		print "url:", url
 
 		# save into the data_dir
