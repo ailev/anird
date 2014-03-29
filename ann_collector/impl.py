@@ -20,7 +20,7 @@ def handler(params, pattern_name):
 				if tree:
 					root = tree.getroot()
 		else:
-			payload = {'id': '155', 'nlist': params['nlist']}
+			payload = {'id': '155', 'type': 'anime', 'nlist': params['nlist']}
 			result = requests.get(ANN_REPORTS_URL, params=payload)
 			if result.status_code == 200:
 				root = ET.fromstring(result.content)

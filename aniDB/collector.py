@@ -19,9 +19,6 @@ def handler(params):
 		count = params.get('nlist')
 		counter = 0
 		for item in root.findall('anime'):
-			if count and counter == count:
-				return
-			counter += 1
 			title_main = None
 			titles_other = []
 			for info in item.findall('title'):
@@ -31,10 +28,14 @@ def handler(params):
 
 			id = item.attrib.get('aid')
 			if title_main:
-				yield { 'TitleMain' : title_main, 'TitleId' : id}
+				roles = { 'TitleMain' : title_main, 'TitleId' : id}
+				yield roles
 				for title_other_type, title_other in titles_other:
-					yield { 'TitleMain' : title_main, 'TitleId' : id, 'TitleTypeName': title_other_type, 'Title': title_other}
-
+					roles = {'TitleId' : id, 'TitleMain' : title_main, 'TitleTypeName': title_other_type, 'Title': title_other}
+					yield roles
+			if count and counter == count:
+				return
+			counter += 1
 
 @public('collectors.AniDBTitleDetails')
 def handler2(params):
