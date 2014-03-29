@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+  <!ENTITY dm "http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#" >
+  <!ENTITY qn1 "http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tpl#" >
+  <!ENTITY qn2 "http://anird.techinvestlab.ru/rdl/" >
+  <!ENTITY owllist "http://www.co-ode.org/ontologies/list.owl#" >
+  <!ENTITY meta "http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/metadata#" >
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+  <!ENTITY p7tm "http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tm#" >
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+  <!ENTITY basens "http://example.org/rdl/" >
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+]>
+
+<rdf:RDF 
+  xmlns="http://example.org/rdl/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dm="http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#"
+  xmlns:qn1="http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tpl#"
+  xmlns:qn2="http://anird.techinvestlab.ru/rdl/"
+  xmlns:owllist="http://www.co-ode.org/ontologies/list.owl#"
+  xmlns:meta="http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/metadata#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:p7tm="http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tm#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:basens="http://example.org/rdl/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+<dm:ClassOfInformationObject rdf:about="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4">
+<rdfs:label>Seikai no Monshou</rdfs:label>
+<qn2:annDataBaseID>1</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id59602b03-e92a-42b0-a43d-13d439190d11">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id945e45f6-7c1d-412c-817d-9f3e44af7ace">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id59602b03-e92a-42b0-a43d-13d439190d11" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id20e20196-9195-493b-9ce2-25c4152a3f98">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id61ee63aa-55bd-42d3-b14a-2e6a85eebecc">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>1</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfIdentification rdf:about="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46">
+<rdfs:label>short</rdfs:label>
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;idab682768-4448-4581-94e3-0ed165eaf5e9">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+</qn1:Specialization>
+<qn1:ClassifiedIdentification rdf:about="&basens;id2a5582be-d83f-4016-b39e-3fcdf150a007">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>CotS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfIdentification rdf:about="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7">
+<rdfs:label>official</rdfs:label>
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id0ee31cb1-55d9-4ff7-b989-f6a0f4d04ff5">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+</qn1:Specialization>
+<qn1:ClassifiedIdentification rdf:about="&basens;id21001750-7c2f-4a40-b1d3-6fee927c895b">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>Crest of the Stars</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfIdentification rdf:about="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc">
+<rdfs:label>syn</rdfs:label>
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id4718f2ae-a06d-4f0f-8364-acd382e49aa9">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+</qn1:Specialization>
+<qn1:ClassifiedIdentification rdf:about="&basens;id8efb0519-3ab1-4869-9ca8-c02d8efeca4b">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>Hvězdný erb</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfIdentification rdf:about="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa">
+<rdfs:label>main</rdfs:label>
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;idefbe2739-ecb4-4aeb-b02c-9ee51aabe431">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+</qn1:Specialization>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3bb7045c-3abc-440b-9189-8226f858bd21">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>Seikai no Monshou</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id8457af49-6c52-4f0e-8da9-85af752f2884">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>SnM</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc3a3e188-544d-4f8f-a570-a47ff98b4610">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>星界之纹章</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id924f6a20-dd15-4e69-84db-1be422922516">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;ida604bcb1-7fa2-4193-b78b-edf1f5bdc5a4" />
+<qn1:valIdentifier>星界の紋章</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id2935177f-30c7-4063-80aa-721b5fb31375">
+<rdfs:label>3x3 Eyes</rdfs:label>
+<qn2:annDataBaseID>2</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;iddf2fa054-6685-4449-be74-3742c976532c">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;idda9c0113-48cd-4411-8073-f13bf2f07b67">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;iddf2fa054-6685-4449-be74-3742c976532c" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id4c06a31a-73c8-449d-8e3a-bd1411ef0bf1">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id96e87b35-5967-4fea-82e2-5fc0851e55ce">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idb304bd4c-a47f-4856-a8ec-e80526f63b6d">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>サザンアイズ</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id0b713d6d-1980-4fef-987e-5e3ba5fcb2c0">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3×3 EYES</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id5e642b9d-ed8f-47e4-a74f-4cb5d7161119">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4eb56f3e-0b0c-44e1-bb0d-2688eb7ddcec">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Augen (OVA 1)</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3cc42bb9-ce68-4635-820b-0db87c4ecd04">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Eyes</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id738196d3-e0f3-4677-b439-f7a5e347eae1">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Eyes</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id43198a41-f19e-49c6-bc15-7bd3890870b3">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Eyes - Immortals</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc9e996d2-138a-434b-b0c6-82450f0b336f">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Occhi</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide2b567dd-cdc3-4b01-9716-c9e8431d1fa8">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Oči</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;iddfbdae5f-be9b-4950-949b-312d735c7c8a">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Ögon</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id282bc825-bd4c-4bfb-ab92-4b6befa40c28">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 Ulls</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id5dc9e34a-5c32-435e-ae6e-50c3ff24194f">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>3x3 глаза</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idb0c1ae99-9356-400a-abfd-6c8afab84cff">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>Sazan Eyes</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id58a61b33-ca6e-4eaf-b50b-9e7537c1d219">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2935177f-30c7-4063-80aa-721b5fb31375" />
+<qn1:valIdentifier>三隻眼</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32">
+<rdfs:label>3x3 Eyes: Seima Densetsu</rdfs:label>
+<qn2:annDataBaseID>3</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;ida499692f-847a-4177-98ef-b0fecdd4e63a">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id058e87d1-0b29-42b9-9019-7a6240f51797">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;ida499692f-847a-4177-98ef-b0fecdd4e63a" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;ide73ffc15-2b04-4312-a038-547bf83a508f">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id0eede154-2cdd-4766-8ef2-8ad65d8e9ec8">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id1ca5dd5f-1952-453b-9a9c-30b4a0c19b3f">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3×3 EYES -聖魔伝説-</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id696eda81-f866-474b-9f22-198549514cff">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3*3 Oczy</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id77750829-13e1-4583-89cd-628d50bad972">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Augen (OVA 2)</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id36be81ea-da33-4bcd-96db-cb2f88c8ad53">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Eyes - La légende du démon divin</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id7c132f0d-51f7-4f0a-a0ba-645bbc6543ed">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Eyes: Legend of the Divine Demon</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idd606c035-43df-4c2e-9f3b-06f4e234b9b0">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Eyes: Seima Densetsu</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idf38a7028-968f-41f6-949b-337171732ed9">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Occhi - La Leggenda del Demone Divino</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4cdfa42e-ff08-468c-b27c-6d1354914756">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Ögon (1995)</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id51d12677-3ae7-4525-87a6-7df112a3a775">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3x3 Ojos</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id0ab40121-2b30-4eb3-8796-dc639febad43">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>3х3 глаза: Сказание Сэймы</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;iddcfba16f-99ce-4e49-a57f-ba57e6f658b1">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id2f5826b7-c533-4e09-a288-80d9367dbd32" />
+<qn1:valIdentifier>Shin 3x3 Eyes</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434">
+<rdfs:label>Seikai no Senki</rdfs:label>
+<qn2:annDataBaseID>4</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id6f7929b5-ff4d-42b9-ba22-795f88444a6b">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;idb03ce2d8-17c5-4f8d-b0b7-dc8423196452">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id6f7929b5-ff4d-42b9-ba22-795f88444a6b" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id1b9d4156-3b14-4718-beae-6165b5be5b77">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id67111bf0-90f0-4ef1-9d4c-ba28ec16dfe1">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>4</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ida51864ac-70c2-4003-89ec-66650830b4a5">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>성계의 전기</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id5ec410bd-6f13-49e5-afdf-28dd77fc730b">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>Banner of the Stars</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idb755da1d-55e8-4c25-9b2d-db18c31163fb">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>Battle Flag of the Stars</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idb09162d7-e6b3-4cee-b0a8-5e8f6b0fbb3a">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>BFotS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9edf3d40-8ef3-48a3-8ae4-833a83d90efe">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>BotS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idbf079aa8-1815-47dc-8017-aa4254422a01">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>BotS1</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9925817e-a7a7-4f8f-aa15-40653af7a905">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>Seikai no Senki</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id01ec56b4-a524-492f-84da-8c53c5e86451">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>SnS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3d86a93b-0ca9-4f67-bf04-d4eeed5823b8">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>SnS1</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id1f967423-c91a-4aa1-9838-c683732ae2da">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>星界の戦旗</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id23756daf-c5b3-4fba-b2fe-87ff7310b12d">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idf9169ffc-7d81-45ae-92be-b5eb9ba12434" />
+<qn1:valIdentifier>星界的战旗</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d">
+<rdfs:label>Seikai no Senki II</rdfs:label>
+<qn2:annDataBaseID>5</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id616f9152-97d9-4067-8811-661100def883">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id16d3a4bb-2931-40ca-8fd2-5b500d2acc6c">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id616f9152-97d9-4067-8811-661100def883" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;idfc18b782-9149-4a81-a64f-15bb62eda1f9">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3ed0295f-de1d-445f-b0fa-12195996e494">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>5</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id40c75869-ad29-4f24-91ec-d109b85e8e8d">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>Banner of the Stars 2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc9f7e3cc-477f-4c1e-8f60-83e0a942a7d1">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>Banner of the Stars II</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idb90cc938-1ae1-449d-8388-f07b0848cc59">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>Battle Flag of the Stars 2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide24dc461-efaa-45a9-8981-db9123526425">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>BFotS2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idf3604eb3-8ddd-409e-b035-4bd7870cec5b">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>BotS2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idcc373c92-f96f-4590-8abe-e7bbf5de052f">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>Seikai no Senki 2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idab75b196-72b8-4ae5-92b4-cd01966542d7">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>Seikai no Senki II</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide55c3d83-10e2-4026-840a-43bdc4b19e7a">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>SnS2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9af58a88-df5b-4808-a5bb-02a58ad5d8c6">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>星界の戦旗II</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id7980f3c5-5c7f-4378-8c62-1a5bcbbaa6c7">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id5bffefa9-8dc7-43aa-849c-b3a7b459436d" />
+<qn1:valIdentifier>星界的战旗2</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b">
+<rdfs:label>Seikai no Danshou</rdfs:label>
+<qn2:annDataBaseID>6</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id09e85a0d-4a00-4fee-bd6b-a3bc41e08752">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;ide4e2f83c-ecf6-45d8-af07-f2a4dc7b805f">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id09e85a0d-4a00-4fee-bd6b-a3bc41e08752" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;idbd957e72-c858-4420-b142-a5895b6dbd41">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc9aac917-dd38-40f3-8823-3f84eca34e00">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>6</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idfa847ab0-5065-4d65-bc2f-e691b0b29b3c">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>Crest of the Stars: Birth</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id23bfdfb0-132c-48da-bb3a-debdf2c2c056">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>Crest of the Stars: Fragment Birth of Stars</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id2fa31c11-d7b3-4ae8-8d4c-74b0c09a3d56">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>Lost Chapter of the Stars</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id8d5dfc30-63b3-407e-8bd3-1c6ae08d9374">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>Seikai no Danshou</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id003e360e-2474-4bea-981b-0f9c2fb8369a">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>Seikai no Monshou Birth</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idd4d480ae-f323-4154-bf3f-89de9178383c">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>SnD</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc929e968-03ac-4761-936b-f47281fe4350">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>星界の断章</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id50493937-eaca-4b98-80bf-ee44ccc8f4e5">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id8e68ff5b-8977-4528-8cea-6680ec44330b" />
+<qn1:valIdentifier>星界的断章</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id83935dce-554d-439e-8cf9-d6e530212a22">
+<rdfs:label>Mononoke Hime</rdfs:label>
+<qn2:annDataBaseID>7</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;idf261fc97-911f-4941-9054-2a8cdd4b5387">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id22176266-6e63-448f-9582-7edac36a19e2">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;idf261fc97-911f-4941-9054-2a8cdd4b5387" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;idd01ecd12-a75d-4bfa-b008-bc21c38fe14a">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id584aff0d-0e4c-458a-a9a7-f883f3b38484">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>7</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id60763c18-1b75-49d4-a6da-33c6b0c01344">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>원령공주</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id07a911ea-b196-416f-b0c6-00bac3e3edfb">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>모노노케 히메</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idd1fb44b9-01fe-4b9c-bc16-d9d08e3ce1a6">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>A vadon hercegnője</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id5c6551b1-5c8d-48ce-bada-c0487cd9a2a1">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Công chúa sói</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id65a1acb3-d70d-4dff-953c-484026ebf323">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Księżniczka Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4a784d0d-4593-44be-8e77-0df02b80b23c">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>La Princesa Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;iddd053df7-79d9-40ee-95f7-a54ad3e29ec9">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>La Principessa Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idbb10bc84-11a4-48b2-af79-9dd4fb8b9c7f">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Mononoke Hime</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9beae518-e8b5-42be-b7d9-1ea3e9ec5901">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Mononoke Princess</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id1831bc67-02ee-40ad-9a10-a746800fbda0">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Prenses Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id472c9c49-7e5c-4583-8216-b9fea3428fb0">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princesa Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id40dd1c93-f53d-4c52-bfdf-c0da4344dc6e">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princese Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id2a7aca51-7f1b-4845-a7ff-85e71ea5bb21">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princesė Mononokė</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9729362e-feff-4a9c-8fe5-d1b167e41d8a">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princesse Mononoké</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9d29b0d0-c1e7-41d8-9747-d054e12e720f">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princess Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id59285406-754e-4367-979e-1926f96c5129">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princeza Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide6adbdb1-f8ff-4ab6-a2d7-d694271a2406">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princezna Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id0c1a4c19-92ac-4ed6-b84f-8c913f8cb8bc">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Princezná Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id22e83d44-506a-4a26-b1ea-dfed7af28ed6">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Prinsessa Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ideccd324a-0b7d-46e9-933b-53ae0b6ad69e">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Prinsesse Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id403adafd-9eda-4048-bcfc-2e11e61ba109">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Prinţesa Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idcae7568c-aac7-443a-9074-1bce8a947439">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Printsess Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idbdd01c1f-4a8f-4219-8814-f950da126019">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Prinzessin Mononoke</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide5cb96fd-7894-45de-bfe4-e852408815b1">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>الأميرة مونونوكي</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idd3fcac2f-4efa-471e-9ce7-10c2ad40b271">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>الأميرة مونونوكيه</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idec611202-b5c1-40b6-9733-26f6e98ae855">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>شاهزاده مونونوکه</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3b8e921d-b6b2-4a9f-b199-514356e836bb">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>הנסיכה מונונוקי</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;ide2a1f995-8e77-41c3-9908-24163ff97b09">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Πριγκίπισσα Μονονόκε</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id28b670d9-a07f-4d64-9458-d8b3aa28bf34">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Мононокэ Гүнж</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idaeeae145-f392-480a-974d-fb8b5cae4c80">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцеза Мононоке</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id2f7abb0c-598c-4531-b68b-92bf6742c8b7">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцеса Мононоке</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idba646be2-523e-468d-8afb-a69bbcc48094">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцеса Мононоке</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id59ff717d-6794-4b29-bae7-5adb089d8d75">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцеса-мононоке</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id2537a840-f6c4-436d-847d-f5b468dfcf8e">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцесса Мононоке</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id38df60d3-3a83-4127-8506-c5f793d2879e">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>Принцесса Мононокэ</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9cf159d2-43a4-40f7-930a-f68905d0c4f6">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>もののけ姫</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idaa358bf1-5ced-405e-bb27-db82d9a589bf">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>幽灵公主</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id9234e93e-a1f8-46c9-98cb-71fe971dff4d">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;id83935dce-554d-439e-8cf9-d6e530212a22" />
+<qn1:valIdentifier>魔法公主</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378">
+<rdfs:label>Aquarian Age: Sign for Evolution</rdfs:label>
+<qn2:annDataBaseID>8</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id77806e62-47dd-4d18-8116-b747285b9136">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id7aa4a68c-5f37-4047-bce8-0ad4ab596163">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id77806e62-47dd-4d18-8116-b747285b9136" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id6a55de38-6be1-471b-b88b-54f7850be055">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id36daf634-f6a1-47e3-b6d3-a8a8d0042ff3">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+<qn1:valIdentifier>8</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idee0e0487-d452-4e54-b27b-207c941e3698">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+<qn1:valIdentifier>Aquarian Age: Sign for Evolution</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id62781fbf-128a-4ee6-b3b5-0234a5deadcd">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+<qn1:valIdentifier>Aquarian Age: Sign for Evolution</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4773915c-4393-4e78-97b8-1039d6cfdf50">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+<qn1:valIdentifier>L`âge du Verseau - Signe d`évolution</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4dbf05b0-dcce-436f-94a4-328cd8cd40b6">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;id2f0d2428-aaed-466d-b29b-4c0f051f9378" />
+<qn1:valIdentifier>アクエリアンエイジ Sign for Evolution</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5">
+<rdfs:label>Chiccha na Yuki Tsukai Sugar</rdfs:label>
+<qn2:annDataBaseID>9</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id8e03efc3-a047-4b16-82b1-d25b449a66a4">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;ide0b1bb51-74b2-4e7d-84c5-2091519f6f71">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id8e03efc3-a047-4b16-82b1-d25b449a66a4" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id29ccc2a0-abd3-453d-91d0-9d883cc20545">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idae4937f0-8cdc-42a0-8aa2-6fe0b5c6079b">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>9</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id3d85f0f3-7677-4a44-98db-789fd0b42966">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>A Little Snow Fairy Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id58f7f82c-ffe5-43a5-8d7b-3faeb06f621a">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>ALSFS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idcd58da06-c1eb-481d-8569-2c718bd6e102">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Chiccha na Yuki Tsukai Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id873665bc-def2-406f-b365-4313a1dad623">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Chiccha na Yukitsukai Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id194c73fd-4be3-4636-b2b0-09efa3651487">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Fadinha de Neve Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id4d7076b7-3fc8-4043-9544-0ac808173513">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id98dcfbd0-c097-42cc-be34-236f65cbbea7">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Sugar: A Little Snow Fairy</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id5ed3ca92-f837-46b0-af1f-83e358e6a1dc">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Tiny Little Snow Fairy Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id74d05e67-5821-4ce6-9c1c-9e6333b65e81">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Tiny Snow Fairy Sugar</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id6ab7c1c2-7c7b-4749-9ac8-c8cce725fb38">
+<qn1:hasContext rdf:resource="&basens;id2675601f-5254-4f35-9ed3-ca67af40bd46" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>TSFS</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id179a42c6-c658-4330-9d30-461298ad086c">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>Малката снежна фея Шугър</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id800be42d-65a3-4206-8f42-56fea1906d79">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;idab7d8484-a302-4503-8f8c-30342a3fbbc5" />
+<qn1:valIdentifier>ちっちゃな雪使いシュガー</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<dm:ClassOfInformationObject rdf:about="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce">
+<rdfs:label>Bastard!! Ankoku no Hakai Shin</rdfs:label>
+<qn2:annDataBaseID>10</qn2:annDataBaseID>
+</dm:ClassOfInformationObject>
+<dm:ClassOfIdentification rdf:about="&basens;id197a7d8f-71d8-443b-afd5-6ec4aef82a46">
+</dm:ClassOfIdentification>
+<qn1:Specialization rdf:about="&basens;id97ea5d88-493f-4542-b3a3-df30159030b0">
+<qn1:hasSuperclass rdf:resource="&qn2;id342b298b-9a78-413c-90c4-61f971d66a08" />
+<qn1:hasSubclass rdf:resource="&basens;id197a7d8f-71d8-443b-afd5-6ec4aef82a46" />
+</qn1:Specialization>
+<qn1:Classification rdf:about="&basens;id28b8ccf6-8016-4794-9e21-20661163f661">
+<qn1:hasClassifier rdf:resource="&qn2;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+<qn1:hasClassified rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+</qn1:Classification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idf7100fb4-bf0f-4030-ac9f-d14f2f636520">
+<qn1:hasContext rdf:resource="&qn2;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>10</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idc3621683-3334-45fe-9071-0a31cca31a6a">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>Bastard!!</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idf82d4ba8-9a6f-46ea-8adb-a51f63d1a881">
+<qn1:hasContext rdf:resource="&basens;id948787e1-f043-4da7-afd9-91cdeb526bfa" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>Bastard!! Ankoku no Hakai Shin</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idf4ae4339-29e9-40cd-be66-91f523d8adc2">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>Bastard! Destroyer of Darkness</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id8a7cf428-9c59-4767-8333-c6e1acba6562">
+<qn1:hasContext rdf:resource="&basens;id3193f2ab-c8a5-4168-8b17-80e9541a50b7" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>BASTARD!! 暗黒の破壊神</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;id653b0699-6a5c-478b-b1fb-33aa1da0bfac">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>暗黑破坏神</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+<qn1:ClassifiedIdentification rdf:about="&basens;idde57228c-93ec-41cb-b2b4-46182033eb16">
+<qn1:hasContext rdf:resource="&basens;idcdbec821-f474-4602-8656-e3ed61eb20fc" />
+<qn1:hasObject rdf:resource="&basens;ide1a2de0b-804a-4d48-b140-21c8ccbbbfce" />
+<qn1:valIdentifier>バスタード!! 暗黒の破壊神</qn1:valIdentifier>
+</qn1:ClassifiedIdentification>
+</rdf:RDF>
