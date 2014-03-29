@@ -10,7 +10,7 @@ data_dir = path.join( base_dir, 'data' )
 
 ANN_REPORTS_URL = 'http://www.animenewsnetwork.com/encyclopedia/reports.xml'
 
-@public('collectors.AnnTitle')
+@public('collectors.ANNTitle')
 def handler(params, pattern_name):
 	root = None
 	if 'nlist' in params:
@@ -25,7 +25,7 @@ def handler(params, pattern_name):
 			if result.status_code == 200:
 				root = ET.fromstring(result.content)
 
-	if root:		
+	if root is not None:		
 		for item in root.findall('item'):
 			title = item.find('name').text
 			id = item.find('id').text
@@ -37,7 +37,7 @@ def handler(params, pattern_name):
 
 ANN_API_URL = 'http://www.animenewsnetwork.com/encyclopedia/api.xml'
 
-@public('collectors.AnnDetails')
+@public('collectors.ANNTitleDetails')
 def handler2(params, pattern_name):
 	if 'title' in params:
 		payload = {'title': params['title']}
@@ -61,9 +61,7 @@ def handler2(params, pattern_name):
 					person_id = staff.find('person').attrib['id']
 					person_name = staff.find('person').text
 					yield { 
-					'Title' : title
-					, 'TitleId' : id
-					, 'Year' : year  
+					'TitleId' : id
 					, 'PositionName' : position
 					, 'PersonId' : person_id
 					, 'PersonName' : person_name
