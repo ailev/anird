@@ -71,7 +71,7 @@ patterns.append({
           },
           {
           'TitleType' : 'self',
-          'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfIdentification',
+          'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfClassOfIdentification',
           'TitleTypeName' : 'label'
           },
           {
@@ -198,7 +198,7 @@ patterns.append({
 
 patterns.append({
 'name': 'ANNStaffPosition',
-'signature': {'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'signature': {'Person' : 'Creator', 'PersonId': '', 'Position' : 'involved as', 'TitleId' : '', 'PositionName': '', 'Anime': 'involved in'},
 'options': [   
     {'name' : 'main',
      'parts' : [
@@ -209,10 +209,12 @@ patterns.append({
           {
           'Person' : 'self',
           'PersonId' : 'annDataBaseID',
+          'type': 'http://anird.techinvestlab.ru/rdl/id916121bd-3613-426c-8346-11ccac3698e8'
           },
           {
           'Anime' : 'self',
           'TitleId' : 'annDataBaseID',
+          'type': 'http://anird.techinvestlab.ru/rdl/id83475f51-fcb0-48cf-ab80-ac726cec2202'
           },
           {
           'PositionName' : 'label',
@@ -250,7 +252,7 @@ patterns.append({
 
 patterns.append({
 'name': 'AniDBStaffPosition',
-'signature': {'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'signature': {'Person' : 'Staff', 'PersonId': '', 'Position' : 'Staff positions', 'TitleId' : '', 'PositionName': '', 'Anime': 'involved in'},
 'options': [   
     {'name' : 'main',
      'parts' : [
@@ -261,10 +263,12 @@ patterns.append({
           {
           'Person' : 'self',
           'PersonId' : 'annDataBaseID',
+          'type': 'http://anird.techinvestlab.ru/rdl/id916121bd-3613-426c-8346-11ccac3698e8'
           },
           {
           'Anime' : 'self',
           'TitleId' : 'annDataBaseID',
+          'type': 'http://anird.techinvestlab.ru/rdl/id83475f51-fcb0-48cf-ab80-ac726cec2202'
           },
           {
           'PositionName' : 'label',
@@ -300,4 +304,46 @@ patterns.append({
 ]
 })
 
+patterns.append({
+'name': 'ANNTitleDetails',
+'signature': {'PersonName' : '', 'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'options': [   
+    {'name' : 'main',
+     'parts' : [
+          {
+          'type' : 'patterns.ANNPerson.main',
+          'PersonName' : 'PersonName',
+          'PersonId' : 'PersonId',
+          },
+          {
+          'type' : 'patterns.ANNStaffPosition.main',
+          'PersonId' : 'PersonId',
+          'TitleId' : 'TitleId',
+          'PositionName' : 'PositionName',
+          },
+     ]
+     },
+]
+})
 
+patterns.append({
+'name': 'AniDBTitleDetails',
+'signature': {'PersonName' : '', 'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'options': [   
+    {'name' : 'main',
+     'parts' : [
+          {
+          'type' : 'patterns.AniDBPerson.main',
+          'PersonName' : 'PersonName',
+          'PersonId' : 'PersonId',
+          },
+          {
+          'type' : 'patterns.AniDBStaffPosition.main',
+          'PersonId' : 'PersonId',
+          'TitleId' : 'TitleId',
+          'PositionName' : 'PositionName',
+          },
+     ]
+     },
+]
+})
