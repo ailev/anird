@@ -47,7 +47,7 @@ patterns.append({
 
 patterns.append({
 'name': 'AniDBTitle',
-'signature': {'Title': '', 'TitleId' : ''},
+'signature': {'Title': '', 'TitleId' : '', 'TitleTypeName' : '', 'TitleMain' : ''},
 'options': [   
     {'name' : 'main',
      'parts' : [
@@ -56,7 +56,7 @@ patterns.append({
           'uri': 'http://anird.techinvestlab.ru/rdl/id83475f51-fcb0-48cf-ab80-ac726cec2202'
           },
           {
-          'AniDBMainTitle' : 'self',
+          'AniDBTitle' : 'self',
           'uri' : 'http://anird.techinvestlab.ru/rdl/id342b298b-9a78-413c-90c4-61f971d66a08'
           },
           {
@@ -66,8 +66,18 @@ patterns.append({
           {
           'Anime' : 'self',
           'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfInformationObject',
-          'Title' : 'label',
+          'TitleMain' : 'label',
           'TitleId' : 'annDataBaseID',
+          },
+          {
+          'TitleType' : 'self',
+          'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfIdentification',
+          'TitleTypeName' : 'label'
+          },
+          {
+          'type' : p7tpl.Specialization,
+          'TitleType' : 'hasSubclass',
+          'AniDBTitle' : 'hasSuperclass'
           },
           {
           'type' : p7tpl.Classification,
@@ -78,7 +88,7 @@ patterns.append({
           'type' : p7tpl.ClassifiedIdentification,
           'Anime' : 'hasObject',
           'Title' : 'valIdentifier',
-          'AniDBMainTitle' : 'hasContext'
+          'TitleType' : 'hasContext'
           },
           {
           'type' : p7tpl.ClassifiedIdentification,

@@ -37,13 +37,13 @@
 <rdfs:label>ANN ID Identification</rdfs:label>
 </dm:ClassOfIdentification>
 <dm:ClassOfIdentification rdf:about="&basens;id342b298b-9a78-413c-90c4-61f971d66a08">
-<rdfs:label>AniDB Main Title Identification</rdfs:label>
+<rdfs:label>AniDB Title Identification</rdfs:label>
 </dm:ClassOfIdentification>
 <dm:ClassOfIdentification rdf:about="&basens;id3c21a8a9-4ede-47fa-952f-a7784ff4465e">
 <rdfs:label>AniDB ID Identification</rdfs:label>
 </dm:ClassOfIdentification>
 <dm:ClassOfIdentification rdf:about="&basens;id333c9202-2408-4fe9-8612-61ab05c564e9">
-<rdfs:label>AniDB Main Name Identification</rdfs:label>
+<rdfs:label>AniDB Name Identification</rdfs:label>
 </dm:ClassOfIdentification>
 <dm:ClassOfIdentification rdf:about="&basens;id71efaa3c-5b02-4a2c-b854-d357cbe5b5bc">
 <rdfs:label>ANN Main Name Identification</rdfs:label>
