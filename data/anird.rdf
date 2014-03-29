@@ -30,48 +30,27 @@
 <dm:ClassOfClassOfIdentification rdf:about="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a">
 <rdfs:label>Anime/Manga Identification Type</rdfs:label>
 </dm:ClassOfClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;id602498b4-5737-4ee4-876e-5bb3a64471d7">
+<dm:ClassOfClassOfIdentification rdf:about="&basens;id602498b4-5737-4ee4-876e-5bb3a64471d7">
 <rdfs:label>ANN Main Title Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;idbc8794fd-3091-4ca9-8af4-2ccad34d5a5b">
+</dm:ClassOfClassOfIdentification>
+<dm:ClassOfClassOfIdentification rdf:about="&basens;idbc8794fd-3091-4ca9-8af4-2ccad34d5a5b">
 <rdfs:label>ANN ID Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;id342b298b-9a78-413c-90c4-61f971d66a08">
+</dm:ClassOfClassOfIdentification>
+<dm:ClassOfClassOfIdentification rdf:about="&basens;id342b298b-9a78-413c-90c4-61f971d66a08">
 <rdfs:label>AniDB Title Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;id3c21a8a9-4ede-47fa-952f-a7784ff4465e">
+<dm:hasClassOfRepresented rdf:resource="&basens;id83475f51-fcb0-48cf-ab80-ac726cec2202" />
+</dm:ClassOfClassOfIdentification>
+<dm:ClassOfClassOfIdentification rdf:about="&basens;id3c21a8a9-4ede-47fa-952f-a7784ff4465e">
 <rdfs:label>AniDB ID Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;id333c9202-2408-4fe9-8612-61ab05c564e9">
+</dm:ClassOfClassOfIdentification>
+<dm:ClassOfClassOfIdentification rdf:about="&basens;id333c9202-2408-4fe9-8612-61ab05c564e9">
 <rdfs:label>AniDB Name Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:ClassOfIdentification rdf:about="&basens;id71efaa3c-5b02-4a2c-b854-d357cbe5b5bc">
+<dm:hasClassOfRepresented rdf:resource="&basens;id916121bd-3613-426c-8346-11ccac3698e8" />
+</dm:ClassOfClassOfIdentification>
+<dm:ClassOfClassOfIdentification rdf:about="&basens;id71efaa3c-5b02-4a2c-b854-d357cbe5b5bc">
 <rdfs:label>ANN Main Name Identification</rdfs:label>
-</dm:ClassOfIdentification>
-<dm:Classification rdf:about="&basens;id6526f2bc-4f23-4b6b-92d7-246e891a0dcc">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;id602498b4-5737-4ee4-876e-5bb3a64471d7" />
-</dm:Classification>
-<dm:Classification rdf:about="&basens;id45f98176-4957-4abd-b004-5aa97988b55a">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;idbc8794fd-3091-4ca9-8af4-2ccad34d5a5b" />
-</dm:Classification>
-<dm:Classification rdf:about="&basens;id5ce8f21a-873c-4fd2-8133-83bb727783b8">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;id342b298b-9a78-413c-90c4-61f971d66a08" />
-</dm:Classification>
-<dm:Classification rdf:about="&basens;idffa6d0a8-298f-491d-8059-0390abdc0add">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
-</dm:Classification>
-<dm:Classification rdf:about="&basens;ida95a9c76-391e-4aa5-ba5b-632f42097952">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;id333c9202-2408-4fe9-8612-61ab05c564e9" />
-</dm:Classification>
-<dm:Classification rdf:about="&basens;idba071cd6-6310-45b8-b7c1-b6de657ee103">
-<dm:hasClassifier rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
-<dm:hasClassified rdf:resource="&basens;id71efaa3c-5b02-4a2c-b854-d357cbe5b5bc" />
-</dm:Classification>
+<dm:hasClassOfRepresented rdf:resource="&basens;id916121bd-3613-426c-8346-11ccac3698e8" />
+</dm:ClassOfClassOfIdentification>
 <dm:ClassOfActivity rdf:about="&basens;id64028374-401c-4393-97e5-ef5408320108">
 <rdfs:label>Anime/Manga Creation Activity Class</rdfs:label>
 </dm:ClassOfActivity>
@@ -91,5 +70,29 @@
 <dm:Specialization rdf:about="&basens;id88533b59-fbdf-45a2-bd9a-c001dedd1663">
 <dm:hasSuperclass rdf:resource="&basens;id64028374-401c-4393-97e5-ef5408320108" />
 <dm:hasSubclass rdf:resource="&basens;id50160897-3495-4b3a-8f79-4b73df8a534c" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;id6c177bf1-5243-4f72-855d-7cd8f982d898">
+<dm:hasSubclass rdf:resource="&basens;id333c9202-2408-4fe9-8612-61ab05c564e9" />
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;id44df9359-1c07-4653-b9c4-ef9eb0d10a90">
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+<dm:hasSubclass rdf:resource="&basens;id3c21a8a9-4ede-47fa-952f-a7784ff4465e" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;ida8cc4211-4d04-4017-80e4-192127c5e676">
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+<dm:hasSubclass rdf:resource="&basens;id342b298b-9a78-413c-90c4-61f971d66a08" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;id8ab1207b-f406-44cc-b6f7-aad24fc00ecc">
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+<dm:hasSubclass rdf:resource="&basens;idbc8794fd-3091-4ca9-8af4-2ccad34d5a5b" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;id83f1286d-3d4f-4db0-a471-56e586155c49">
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+<dm:hasSubclass rdf:resource="&basens;id602498b4-5737-4ee4-876e-5bb3a64471d7" />
+</dm:Specialization>
+<dm:Specialization rdf:about="&basens;id7d090c7f-d0c7-4361-9f37-64cc4989b68c">
+<dm:hasSuperclass rdf:resource="&basens;id5247e03c-a750-4392-82fd-f230fc4c670a" />
+<dm:hasSubclass rdf:resource="&basens;id71efaa3c-5b02-4a2c-b854-d357cbe5b5bc" />
 </dm:Specialization>
 </rdf:RDF>

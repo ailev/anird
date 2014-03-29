@@ -71,7 +71,7 @@ patterns.append({
           },
           {
           'TitleType' : 'self',
-          'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfIdentification',
+          'type' : 'http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#ClassOfClassOfIdentification',
           'TitleTypeName' : 'label'
           },
           {
@@ -300,4 +300,46 @@ patterns.append({
 ]
 })
 
+patterns.append({
+'name': 'ANNTitleDetails',
+'signature': {'PersonName' : '', 'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'options': [   
+    {'name' : 'main',
+     'parts' : [
+          {
+          'type' : 'patterns.ANNPerson.main',
+          'PersonName' : 'PersonName',
+          'PersonId' : 'PersonId',
+          },
+          {
+          'type' : 'patterns.ANNStaffPosition.main',
+          'PersonId' : 'PersonId',
+          'TitleId' : 'TitleId',
+          'PositionName' : 'PositionName',
+          },
+     ]
+     },
+]
+})
 
+patterns.append({
+'name': 'AniDBTitleDetails',
+'signature': {'PersonName' : '', 'PersonId': '', 'TitleId' : '', 'PositionName': ''},
+'options': [   
+    {'name' : 'main',
+     'parts' : [
+          {
+          'type' : 'patterns.AniDBPerson.main',
+          'PersonName' : 'PersonName',
+          'PersonId' : 'PersonId',
+          },
+          {
+          'type' : 'patterns.AniDBStaffPosition.main',
+          'PersonId' : 'PersonId',
+          'TitleId' : 'TitleId',
+          'PositionName' : 'PositionName',
+          },
+     ]
+     },
+]
+})
