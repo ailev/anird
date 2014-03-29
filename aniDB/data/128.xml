@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anime id="128" restricted="false">
+<type>OVA</type>
+<episodecount>4</episodecount>
+<startdate>2002-02-25</startdate>
+<enddate>2003-01-25</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Arcade Gamer Fubuki</title>
+<title xml:lang="x-jat" type="short">fubuki</title>
+<title xml:lang="ja" type="official">アーケードゲーマーふぶき</title>
+</titles>
+<relatedanime>
+<anime id="1552" type="Character">Keroro Gunsou</anime>
+<anime id="3088" type="Character">Game Center Arashi</anime>
+</relatedanime>
+<url>http://www.bandaivisual.co.jp/fubuki/</url>
+<creators>
+<name id="792" type="Animation Work">Shaft</name>
+<name id="3013" type="Chief Animation Direction">Morioka Hideyuki</name>
+<name id="3013" type="Character Design">Morioka Hideyuki</name>
+<name id="4241" type="Original Work">Yoshizaki Mine</name>
+<name id="4619" type="Music">Katsumata Ryuuichi</name>
+<name id="4296" type="Series Composition">Yamaguchi Ryouta</name>
+<name id="4463" type="Direction">Mutou Yuuji</name>
+</creators>
+<description>Fubuki Sakuragasaki is a powerful gamer who, with the power of her Passion Panties, climbs up the ranks of the BAG (Best of Arcade Gamer) tournament to become the greatest Arcade Gamer in the world. However, the evil Gulasic Group is out to conquer the world through said tournament, and their gaming skills will prove to be a challenge. Fubuki must team up with the legendary Mr. Mystery to combat the four Gods of Gaming and make the world of arcade gaming safe for all.
+Source: ANN</description>
+<ratings>
+<permanent count="174">2.65</permanent>
+<temporary count="176">5.45</temporary>
+<review count="2">3.33</review>
+</ratings>
+<picture>148866.jpg</picture>
+<categories>
+<category id="282" parentid="313" hentai="false" weight="400">
+<name>Ecchi</name>
+<description>Ecchi, or etchi (エッチ), is a common Japanese word meaning "indecent", "lewd", "frisky" or "sexy"; its usage can be compared to the English word "naughty". Among western anime fans, the term is used when vague sexual content, such as skimpy clothing or nudity, is prominent. In Japanese, however, it is a catch-all term for all things anyhow sexual in nature, mild or otherwise.</description>
+</category>
+<category id="4" parentid="313" hentai="false" weight="400">
+<name>Action</name>
+<description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting. </description>
+</category>
+<category id="113" parentid="317" hentai="false" weight="400">
+<name>Sports</name>
+<description>Sports anime revolves around a recreational physical activity or skill. In addition they often adhere to certain genre conventions, the emphasis on training and practice in preparation for competition, characters desire for self improvement, and pursuit of a specific goal.</description>
+</category>
+<category id="130" parentid="291" hentai="false" weight="200">
+<name>Virtual Reality</name>
+<description>A virtual reality is a place where the character interacts with a computer (or some other device)-simulated environment, be it real or imagined. The condition for a virtual reality to exist is the existence of real world for the character. In some cases, a virtual reality where characters can get harmed physically is depicted.</description>
+</category>
+<category id="151" parentid="17" hentai="false" weight="600">
+<name>Parody</name>
+<description>Anime that imitate other stories (can be from TV, film, books, historical events, ...) for comic effect by exaggerating the style and changing the content of the original. Also known as spoofs. It can also refer to when whole elements of one work are lifted out of their context and reused.</description>
+</category>
+<category id="18" parentid="4" hentai="false" weight="400">
+<name>Super Power</name>
+<description>Be it an ancient Greek Heracles, a cybernetic muscle-man, or a fourteen year-old girl in a mini-skirted sailor suit. As long as they have super powers, they`re in the show.</description>
+</category>
+<category id="23" parentid="22" hentai="false" weight="400">
+<name>Japan</name>
+<description>Last stronghold for humanity, if Tokyo falls, it`s all over. Tokyo Tower will undoubtedly fall anyway.</description>
+</category>
+<category id="283" parentid="282" hentai="false" weight="600">
+<name>Pantsu</name>
+<description>"Panties" in Japanese. Upskirt views in various positions are typical, however all forms of partial or fully exposed panties are accepted. Exposure is usually accidental, but may also be deliberate. Pantsu views may be exclusive to the viewer without impacting any characters. Bikinis are not pantsu.</description>
+</category>
+<category id="5" parentid="3" hentai="false" weight="400">
+<name>Shounen</name>
+<description>In the context of manga and associated media, the word shounen refers to a male audience roughly between the ages of 10 and 18. In Japanese, the word means simply "young male", and has no anime/manga-related connotations at all. It does not comprise a style or a genre per se, but rather indicates the publisher`s intended target demographic. Still, while not mandatory, some easily identifiable traits are generally common to shounen works, such as: high-action, often humorous plots featuring male protagonists; camaraderie between male friends; sports teams and fighting squads (usually coupled with the aforementioned camaraderie); unrealistically attractive female characters (see fanservice). Additionally, the art style of shounen tends to be less flowery than that of shoujo and the plots tend to be less complex than seinen, but neither of those is a requirement.</description>
+</category>
+</categories>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>846</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>5715</identifier>
+</externalentity>
+<externalentity>
+<identifier>1596</identifier>
+</externalentity>
+</resource>
+<resource type="3">
+<externalentity>
+<identifier>827</identifier>
+<identifier>wkzqcj</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.bandaivisual.co.jp/fubuki/</url>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>アーケードゲーマーふぶき</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>237002</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="4296" approval="2" spoiler="false" localspoiler="false" globalspoiler="false" update="2012-12-07">
+<name>Buried Garbage</name>
+<count>17</count>
+<description>This signifies that the anime has appeared as part of the Anime News Network`s Buried Treasure column under the title of Buried Garbage — *anime name*.
+See also: Buried Treasure, The Mike Toole Show</description>
+</tag>
+<tag id="1517" approval="4" spoiler="false" localspoiler="false" globalspoiler="false">
+<name>gamers</name>
+<count>3</count>
+</tag>
+</tags>
+<characters>
+<character id="33992" type="secondary cast in" update="2011-06-27">
+<rating votes="3">6.09</rating>
+<name>Melody Honey</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>74386.jpg</picture>
+<seiyuu id="356" picture="17197.jpg">Toyoguchi Megumi</seiyuu>
+</character>
+<character id="63315" type="secondary cast in" update="2014-01-22">
+<name>Juumonji Chizuru</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148923.jpg</picture>
+<seiyuu id="82" picture="34824.jpg">Asakawa Yuu</seiyuu>
+</character>
+<character id="63316" type="main character in" update="2014-01-22">
+<name>Sakuragasaki Fubuki</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148922.jpg</picture>
+<seiyuu id="313" picture="17150.jpg">Nogawa Sakura</seiyuu>
+</character>
+<character id="63317" type="secondary cast in" update="2014-01-22">
+<name>Kokubunji Hanako</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148921.jpg</picture>
+<seiyuu id="56" picture="16651.jpg">Shimizu Kaori</seiyuu>
+</character>
+<character id="63318" type="secondary cast in" update="2014-01-22">
+<name>Sanpeita</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148920.jpg</picture>
+<seiyuu id="17210" picture="46549.jpg">Yamamoto Misaki</seiyuu>
+</character>
+<character id="63319" type="secondary cast in" update="2014-01-22">
+<name>Nazo no Hito</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148919.jpg</picture>
+<seiyuu id="454" picture="17354.jpg">Furuya Tooru</seiyuu>
+</character>
+<character id="63320" type="secondary cast in" update="2014-01-22">
+<name>Miss Arca</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>148924.jpg</picture>
+<seiyuu id="19182" picture="25725.jpg">Yukino Satsuki</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="907" update="2011-10-20">
+<epno type="1">1</epno>
+<length>30</length>
+<airdate>2002-02-25</airdate>
+<rating votes="2">6.78</rating>
+<title xml:lang="ja">ふぶき爆誕</title>
+<title xml:lang="en">Fubuki bakutan</title>
+<title xml:lang="x-jat">Fubuki Bakutan</title>
+</episode>
+<episode id="908" update="2006-10-03">
+<epno type="1">2</epno>
+<length>30</length>
+<airdate>2002-04-25</airdate>
+<rating votes="2">7.95</rating>
+<title xml:lang="ja">盗まれたPP</title>
+<title xml:lang="en">Stolen passion panty</title>
+<title xml:lang="x-jat">Nusumareta PP</title>
+</episode>
+<episode id="6257" update="2011-10-20">
+<epno type="1">3</epno>
+<length>30</length>
+<airdate>2002-08-25</airdate>
+<rating votes="2">4.66</rating>
+<title xml:lang="ja">決勝! 父ちゃんは帝王!?</title>
+<title xml:lang="en">Final game! My dad is an emperor!?</title>
+<title xml:lang="x-jat">Kesshou! Otou-chan wa Teiou!?</title>
+</episode>
+<episode id="19695" update="2011-10-20">
+<epno type="1">4</epno>
+<length>35</length>
+<airdate>2003-01-25</airdate>
+<rating votes="2">5.88</rating>
+<title xml:lang="ja">時空を越えた遭遇</title>
+<title xml:lang="en">A Reunion that transcends time</title>
+<title xml:lang="x-jat">Jikuu o Koeta Souguu</title>
+</episode>
+<episode id="91320" update="2008-06-11">
+<epno type="2">S1</epno>
+<length>6</length>
+<rating votes="1">2.10</rating>
+<title xml:lang="en">Paradise Beyond the Wall</title>
+</episode>
+<episode id="118912" update="2010-06-10">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2002-04-25</airdate>
+<title xml:lang="en">Opening</title>
+</episode>
+<episode id="121135" update="2010-08-10">
+<epno type="3">C2</epno>
+<length>0</length>
+<title xml:lang="en">Ending</title>
+</episode>
+</episodes>
+</anime>

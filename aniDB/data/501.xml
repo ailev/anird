@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anime id="501" restricted="false">
+<type>OVA</type>
+<episodecount>6</episodecount>
+<startdate>1992-05-21</startdate>
+<enddate>1992-11-21</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Choujikuu Yousai Macross II: Lovers Again</title>
+<title xml:lang="x-jat" type="synonym">Macross II: Lovers Again</title>
+<title xml:lang="x-jat" type="short">macross 2</title>
+<title xml:lang="ja" type="official">超時空要塞マクロスII -Lovers Again-</title>
+<title xml:lang="en" type="official">Macross II The Movie</title>
+<title xml:lang="de" type="official">Macross II</title>
+<title xml:lang="fr" type="official">Super Dimensional Fortress Macross II</title>
+<title xml:lang="pl" type="official">Macross II</title>
+<title xml:lang="fi" type="official">Macross II - Yliulottuvaisuuden linnake</title>
+</titles>
+<relatedanime>
+<anime id="996" type="Prequel">Choujikuu Yousai Macross: Ai Oboete Imasuka</anime>
+</relatedanime>
+<url>http://www.macross.co.jp/</url>
+<creators>
+<name id="732" type="Work">AIC</name>
+<name id="997" type="Work">Mainichi Housou</name>
+<name id="1051" type="Work">Bandai</name>
+<name id="1059" type="Work">Big West</name>
+<name id="1082" type="Work">Shogakukan</name>
+<name id="1154" type="Work">Oniro</name>
+<name id="1233" type="Work">Hero Communications</name>
+<name id="512" type="Character Design">Mikimoto Haruhiko</name>
+<name id="2119" type="Series Composition">Tomita Sukehiro</name>
+<name id="2122" type="Original Plan">Watabe Takashi</name>
+<name id="4254" type="Direction">Yatagai Ken`ichi</name>
+<name id="1955" type="Music">Sagisu Shirou</name>
+<name id="7510" type="Original Plan">Fujita Kazumi</name>
+</creators>
+<description>Eighty years have passed on Earth since the events chronicled in "Macross: Do you Remember Love?" The descendants of the Zentraedi/Meltrandi conflict have established a new society with the people of Earth and conflict with the Zentraedi is just a distant memory...
+But when alien invaders identified as renegade Zentraedi threaten this uneasy alliance, the Super Dimensional Fortress Macross must resurrect itself after generations of inactivity to fight against the enemy forces. Hibiki Kanzazi, an investigative reporter for Scramble News Network (SNN), is caught up in the battle when he inadvertently allies himself with Ishtar, an enigmatic Zentraedi princess.
+Enlisting the help of spirited Valkyrie pilot Silvie Gena, Hibiki rushes to save Ishtar from imminent "reprogramming" by hostile Zentraedi. Silvie and Hibiki must also broadcast the truth about Zentraedi invasion and convince the powerful military complex U.N. Spacey to reactivate the Macross fortress and defend Earth one last time.</description>
+<ratings>
+<permanent count="577">3.99</permanent>
+<temporary count="585">6.45</temporary>
+<review count="2">5.83</review>
+</ratings>
+<picture>1567.jpg</picture>
+<categories>
+<category id="225" parentid="256" hentai="false" weight="400">
+<name>Music</name>
+<description>Music anime generally revolves around people concerned with music in their everyday lives. In addition they often adhere to certain genre conventions, the emphasis on training and practice in preparation for competitions, characters desire for self improvement, and pursuit of a specific goal. This is not unlike the Sports category.</description>
+</category>
+<category id="118" parentid="13" hentai="false" weight="600">
+<name>Piloted Robot</name>
+<description>Piloted Robots are, as the name suggests, robots that cannot control themselves; they need to be steered from somewhere, this can be from a human sitting inside or a remote controlled option.</description>
+</category>
+<category id="8" parentid="313" hentai="false" weight="600">
+<name>Sci-Fi</name>
+<description>Science fiction stories usually focus on how situations could be different in the future when we are more technologically advanced; due to either our own achievements or having met with other civilizations whom we have learned from. </description>
+</category>
+<category id="13" parentid="8" hentai="false" weight="600">
+<name>Mecha</name>
+<description>Mecha in Japanese basically means mechanical things; everything from an electric whisk or a car to a spaceship or a robot. Here however we limit it to the more exotic things usually referred to as mecha anime: robots, whether controlled by a human or not, and their ilk.</description>
+</category>
+<category id="129" parentid="19" hentai="false" weight="400">
+<name>Shipboard</name>
+<description>Beam me up, Scotty! Space stations (think Death Star) also count. Basically, this category is to tell if the setting takes place onboard a spaceship in space. This category is not applicable if the spaceship lies on a planet and never actually gets into space.</description>
+</category>
+<category id="185" parentid="184" hentai="false" weight="600">
+<name>Humanoid Alien</name>
+<description>Humanoids are aliens, intelligent beings who do not originate from Earth, but have a striking similarity to humans or at least show the basic body layout, i.e. two arms and legs, head with two eyes and ears, one nose and mouth. Though the latter - head-related features - may vary. As "DearS" shows some aliens actually exhibit super-human beauty, or as in the case of "Onegai Teacher" they are genetically compatible to humans for some strange reason.</description>
+</category>
+<category id="184" parentid="8" hentai="false" weight="600">
+<name>Alien</name>
+<description>An extraterrestrial life-form, possibly intelligent and/or extremely threatening. Aliens come in all shapes and sizes: They may be ethereal beings as in "Final Fantasy: The Spirits Within", quite humanoid as most of the female space-faring cast in "Tenchi Muyou! GXP", or totally incomprehensible as in "Gantz". Not the sky is the limit, but the anime author`s imagination.</description>
+</category>
+<category id="19" parentid="7" hentai="false" weight="400">
+<name>Space</name>
+<description>The final frontier.</description>
+</category>
+<category id="198" parentid="313" hentai="false" weight="200">
+<name>Romance</name>
+<description>Romance describes a story that deals with love between two or more characters typically also having an optimistic ending. Romance is also a difficulty encountered when creating a harem.</description>
+</category>
+<category id="230" parentid="198" hentai="false" weight="100">
+<name>Love Polygon</name>
+<description>A love polygon refers to a romantic relationship involving n people. Although a love triangle is not limited to just heterosexual relationships, in anime, it usually deals with two females liking one male and vice versa.</description>
+</category>
+<category id="233" parentid="216" hentai="false" weight="400">
+<name>Plot Continuity</name>
+<description>Consistency of the characteristics of persons, plot, objects, places and events seen by the viewer.&#13;
+&#13;
+A single linear focused plot is highly continuous.&#13;
+&#13;
+A truly random plot is highly discontinuous.</description>
+</category>
+<category id="259" parentid="171" hentai="false" weight="600">
+<name>Airforce</name>
+<description>Anime with this category, like anime with Military as category concerns an organised armed force, but with the difference that they should primarily conduct aerial warfare.&#13;
+&#13;
+Note: Just because the anime contains a bunch of planes or similar, unless the anime is actually about a fighting airforce, you might not want to add this genre. </description>
+</category>
+<category id="4" parentid="313" hentai="false" weight="600">
+<name>Action</name>
+<description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting. </description>
+</category>
+<category id="171" parentid="317" hentai="false" weight="600">
+<name>Military</name>
+<description>The anime concerns an organised armed force, and its members. Said body should have both the equipment and hierarchy found in military groups, and should ideally be actively utilising their power against an opponent. Characters are either employed as professional soldiers or enlisted on a volunteer basis, for ideological reasons.</description>
+</category>
+<category id="26" parentid="461" hentai="false" weight="600">
+<name>Post-apocalypse</name>
+<description>After a major cataclysm has occurred. World War III, an alien invasion, plague, global warming or some other general disaster are common themes to build a post-apocalyptic world upon, where the effects were severe enough that mankind barely survived.</description>
+</category>
+<category id="12" parentid="6" hentai="false" weight="600">
+<name>Future</name>
+<description>Anime that fall under the future category are the ones that have a society that could have originated from ours. In most cases it should go hand to hand with sci-fi since we expect the future to consist of advanced technology, however, in the case where it`s explicitly stated in the story that the anime takes place "x years into the future", the state of technology doesn`t matter as long as it`s long into the future. The anime can be set in an alternative universe not tied with our own, as long as it has a futuristic feel to it.&#13;
+&#13;
+This category sports quite a lot of anime, mostly stemming from SciFi, but not necessarily only from there.</description>
+</category>
+<category id="275" parentid="268" hentai="false" weight="600">
+<name>New</name>
+<description>Not based on anything, the story is a new work, usually made up by the people involved in creating the anime. Generally if an original work (原作) credit is given, it will be to the studio, or director, or other members of the production team.</description>
+</category>
+<category id="289" parentid="7" hentai="false" weight="400">
+<name>Earth</name>
+<description>The Earth is the third planet from the Sun. It is a ball of hot mud, but on the surface it`s cold enough, so most of us live on it (or are supposed to). To its inhabitants, our planet is their home, so, as a species, we cherish it to the point many cultures even to this day deify it. The Earth is the main setting of most fiction, but many titles are set in other places, such as unrelated fantasy worlds, and in a considerable number of fictional titles the Earth is actually destroyed by invaders.</description>
+</category>
+<category id="84" parentid="83" hentai="false" weight="300">
+<name>Violence</name>
+<description>Physical force against self or other, compelling action against one`s will on pain of being hurt.</description>
+</category>
+<category id="149" parentid="13" hentai="false" weight="500">
+<name>Transforming Robot</name>
+<description>Transforming Robots includes mecha that change shape from their original either to facilitate better/different functionality or as camouflage.</description>
+</category>
+<category id="199" parentid="225" hentai="false" weight="200">
+<name>Idol</name>
+<description>Idols are young media personalities who are considered particularly cute and cuddly and who will, for a period ranging from several months to a few years, regularly appear in the mass media, e.g. as singers for J-pop groups, bit-part actors, TV personalities, models in photo spreads published in magazines, advertisements, etc.</description>
+</category>
+</categories>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>169</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>1262</identifier>
+</externalentity>
+</resource>
+<resource type="3">
+<externalentity>
+<identifier>530</identifier>
+<identifier>ycqvrz</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.macross.co.jp/</url>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>88422</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="4705" approval="4" spoiler="false" localspoiler="false" globalspoiler="false" update="2009-03-29">
+<name>the power of love</name>
+<count>114</count>
+<description>The power of love is not only the strongest power known to mankind, it is the strongest power in the universe. The power of love conquers all things. It makes people cry, it makes people laugh, it can make them sing and occasionally it even brings dead people back to life, just so.
+More so than the power of friendship, the power of true love gives boundless strength and resolution; by the power of love every hardship can be overcome, every issue can be resolved and it does make people resistant to food poisoning (caused by the bad cooking of their loved ones). Even the big bad evil doesn`t stand a chance against the power of true love and often ends up redeemed.
+Even when the power of love is not literally and directly responsible, the scene is often set so that the audience is left with the impression that it was "really responsible".</description>
+</tag>
+<tag id="136" approval="4" spoiler="false" localspoiler="false" globalspoiler="false" update="2010-08-12">
+<name>space opera</name>
+<count>94</count>
+<description>Space opera is a sub-genre of fiction that emphasizes romantic adventures in space. Space opera generally involves large-scale conflicts between opponents with powerful abilities and technology. The genre will often be melodramatic, sometimes playing music that can be nothing short of awesome. Warfare and a battle of wits are usually less emphasized, preferring romance (with exceptions, e.g. Ginga Eiyuu Densetsu). Some space operas tend to be formulaic and sometimes even prosaic, often employing very simple devices and somewhat obvious strategies. An example of this would be the infamous laws of physics in the Macross universe, in which the main male lead will hardly ever get hit in battle.</description>
+</tag>
+<tag id="5450" approval="4" spoiler="false" localspoiler="false" globalspoiler="false" update="2010-02-01">
+<name>boy meets girl</name>
+<count>193</count>
+<description>A classical type of plot in story writing, where the story begins with a boy meeting a girl leading to romantic development between the two. More often than not the boy loses the girl later on and has to find her again.</description>
+</tag>
+</tags>
+<characters>
+<character id="21733" type="appears in" update="2012-09-13">
+<rating votes="2">9.09</rating>
+<name>SDF-1 Macross</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>For thousands of millennia, an ancient war raged across the Milky Way Galaxy unbeknownst to the human race. In July 1999, that war came to humanity`s doorstep when a super-light-velocity spaceship crash-landed on Earth. The United Nations commences an investigation of the crash site located on South Ataria Island in the North Pacific Ocean. The spacecraft is given the code name Alien StarShip-1 (ASS-1) and investigations in the months following the crash uncover startling discoveries. Giant aliens, some five times the size of a human, crewed the craft which is revealed to be a warship; a Gun Destroyer from a faction called the Supervision Army. Most important of any discovery found in the alien spacecraft is the advanced technology contained within it. Given the name "OverTechnology," the United Nations Government (U.N.G) coordinates research quickly to understand it.
+In 2001, several countries including Japan, United States, Russia, Germany, Britain, and France collaborate to establish an alien technology research institute called OTEC. Less than a year later, the OTEC commences a project to restore and reconstruct the ASS-1 to be commissioned as a capital ship for the newly formed United Nations Government. From February 2001 forward, the spacecraft is designated as the SDF-1; Super-Dimension-Fortress-1. Incredible advances are made from the research including the thermonuclear reaction system used to power the craft, the gravity control system, the space fold system for traveling faster-than-light and the super-dimension-energy cannons, the main weapon of the SDF-1. These technologies are adapted quickly and soon OverTechnology is being utilized in dozens of industries, notably super-small-scale thermonuclear reactors and the development of thermonuclear reaction bombs. Despite these unprecedented leaps of progress, many problems arise and threaten to undermine the launch of the SDF-1.
+Originally set to launch in 2006, civil unrest abroad and the outbreak of the Anti-Unification Wars slows the SDF-1 restoration project. Eventually, the "UN Wars" cease on January 20th 2007 and the SDF-1 is rescheduled for launch in February 2009. It is the day of the launching ceremony that the opposing faction of the ancient war tracks the residual energies left by the ASS-1`s space fold and follow it to the Sol system. The newly christened SDF-1 Macross, armed with a heretofore undiscovered automated defense system, activates in response to the approaching enemy forces known as the Zentradi. The main cannon of the SDF-1 Macross fires from the surface of the Earth and destroys two Zentradi ships some 280,000 km out in space. The remaining Zentradi retaliate and intense fighting ensues. In an attempt to maneuver and regain the initiative, Captain http://anidb.net/ch10507 [Bruno J. Global] activates the space fold system to transport the SDF-1 Macross into Lunar orbit. Due to limited human understanding of the space fold system and improper instrumentation, the SDF-1 Macross folds far beyond the Moon, transporting the ship and much of the surrounding surface of South Ataria Island out past Pluto. This single engagement initiates the beginning of Space War I between the UN Spacy and the Zentradi.Over the length of more than a year during which Space War I is fought, the SDF-1 Macross travels from the outskirts of the Sol system back to Earth, fighting the forces of the Zentradi. The Zentradi are determined to capture the vessel, obsessed with the secrets of the ship`s obvious reconstruction and reaction weapons. This advantage allows the Macross to effectively use it`s formidable defenses, thwarting many attempts to be captured by the enemy. After Space War I ends on March 10th 2010, the Macross landing site is chosen as home for the reconstruction of Macross City. The Macross takes part in one more major engagement against rogue Zentradi Kamjin Kravshera`s forces during the Defensive Battle of Macross City in January 2012. Despite extensive damage following the battle, the Macross is repaired and undergoes a major refit. To this day, the Macross remains the home of the U.N. Military Command Center and is berthed in Macross City on Earth.
+Source: http://www.macross2.net/m3/sdfmacross/macross.htm</description>
+<picture>93969.jpg</picture>
+</character>
+<character id="35303" type="main character in" update="2012-09-21">
+<rating votes="1">9.13</rating>
+<name>Ishtar</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>An Emulator within the Marduk race. Her singing enhances the aggressive tendencies of the Zentradi warriors in the Marduk armies and allows the Marduk to control the Zentradi. When http://anidb.net/ch35306 [Hibiki] brings her to Earth, she is shocked by the variety of cultures and traditions of the humans. Because of her experiences, she changes her Emulator song to be one which encourages the Marduk to be peaceful. She believes the http://anidb.net/ch21733 [SDF-1 Macross] is the legendary ship of the Alus, an entity prophesied in the Marduk culture to bring peace to Marduk.
+Source: wiki</description>
+<picture>76616.jpg</picture>
+<seiyuu id="167" picture="16972.jpg">Kasahara Hiroko</seiyuu>
+</character>
+<character id="35304" type="main character in" update="2012-09-21">
+<rating votes="1">7.59</rating>
+<name>Silvie Gena</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Silvie Gena is an ace http://anidb.net/ch49124 [Valkyrie II] variable fighter pilot and commander of the Faerie Squadron who, despite being merely 17 years old, is ranked the second finest pilot only after Nexx Gilbert. She has a Meltrandi grandmother, from whom she inherited her prowess at fighting, and becomes very angry at the Marduk when she discovers their use of brainwashing in the Zentradi soldiers that are under their command. She and http://anidb.net/ch35306 [Hibiki] got off with a bad start due to the latter`s pursuit of a scoop on her secret meeting with Supreme Commander Exxegran (where she punched http://anidb.net/ch35306 [Hibiki] in the nose). Her feelings begin to change, however, after crossing paths with him on several occasions during the war against Marduk.
+Source: wiki</description>
+<picture>76617.jpg</picture>
+<seiyuu id="1446" picture="19314.jpg">Touma Yumi</seiyuu>
+</character>
+<character id="35305" type="secondary cast in" update="2011-08-07">
+<rating votes="2">4.95</rating>
+<name>Elensh</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>76618.jpg</picture>
+<seiyuu id="29012" picture="76619.jpg">Mashina Junko</seiyuu>
+</character>
+<character id="35306" type="main character in" update="2012-09-21">
+<rating votes="2">2.93</rating>
+<name>Kanzaki Hibiki</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Kanzaki Hibiki works as an entertainment reporter for the television network SNN (Scramble News Network). He wants to be more, however, and jumps at the chance to cover the first encounters with the Marduk invaders. While covering one of the battles, he discovers http://anidb.net/ch35303 [Ishtar], an Emulator used to excite the aggressive tendencies of the Marduk through her singing. Originally seeing the scoop of a lifetime, Hibiki harbors http://anidb.net/ch35303 [Ishtar] on Earth and shows her Earth`s culture but is eventually moved by http://anidb.net/ch35303 [Ishtar]`s belief in bringing peace to her people by spreading Earth`s love songs. At the same time Hibiki also finds himself having to deal with the U.N. Spacy, who is overzealous in not allowing any possibility of public panics despite having the frontline pushed all the way back to Earth itself.
+Source: wiki</description>
+<picture>76620.jpg</picture>
+<seiyuu id="15070" picture="44401.jpg">Takayama Tsutomu</seiyuu>
+</character>
+<character id="35362" type="secondary cast in" update="2012-09-21">
+<rating votes="1">5.71</rating>
+<name>Feff</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Feff is a commander of the Marduk forces and reports to Lord Emperor Ingues. Despite his ferocity and cruelty in combat, he does not entirely believe in the Ingues`s extreme enforcement of cultural purity and eventually turns on Ingues once he understands what http://anidb.net/ch35303 [Ishtar] is trying to do. He later confesses that he harbors feelings for http://anidb.net/ch35303 [Ishtar].Source: wiki</description>
+<picture>90336.jpg</picture>
+<seiyuu id="454" picture="17354.jpg">Furuya Tooru</seiyuu>
+</character>
+<character id="48777" type="appears in" update="2012-09-13">
+<name>Nupetiet-Vergnitzs</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The largest conventional Zentradi warship seen in Space War I, a Nupetiet-Vergnitzs Class vessel was the lead warship of the Bodol Zer Main Fleet`s 67th Glruimual class branch http://anidb.net/ch10514 [Vrlitwhai] (Adoclass) Fleet. A medium-scale fleet command battleship, the original design for this class of vessel was completed during development competitions in the early years of the Schism War. Over four kilometers in length, these ships are bristling with numerous weapon emplacements and carry a large complement of Zentradi mecha.
+http://anidb.net/ch10514 [Vrlitwhai Kridanik], the Zentradi in command of the Nupetiet-Vergnitzs, was on a search and destroy mission to find Supervision Army survivors when his fleet came upon residual traces of a Supervision Army gun destroyer`s defold reaction some ten light years away from Earth. The gun destroyer was naturally the http://anidb.net/ch21733 [SDF-1 Macross] and http://anidb.net/ch10514 [Vrlitwhai] led his fleet in an operation to intercept it. When the gun destroyer was found completely reconstructed, http://anidb.net/ch10514 [Vrlitwhai] led many relentless missions to capture the ship, including a daring operation using his own Nupetiet-Vergnitzs vessel as bait.Though http://anidb.net/ch10514 [Vrlitwhai]`s Nupetiet-Vergnitzs was damaged repeatedly during Space War I, the ship remained fully operational during the war and even survived battle against the Bodol Zer Main Fleet. Repaired following the end of the war, the vessel was re-commissioned thereafter and became the first battleship of the New United Nations Forces in December 2012.Source: http://www.macross2.net/m3/sdfmacross/nupetiet-vergnitzs.htm</description>
+<picture>93984.jpg</picture>
+</character>
+<character id="48779" type="appears in" update="2012-09-13">
+<name>Quiltra-Queleual</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The Quiltra-Queleual Class Landing Ship Tank (LST), like nearly all Zentradi ships of the line, has been in active service for hundreds of millennia. Another product of the war machines used during the ancient Schism War of the old Galactic Empire, the Quiltra-Queleual serves the role of a planetary assault ship. More than any of the other Zentradi capital ships, this vessel devotes the vast majority of internal volume to mecha bays and hangars for battle pods, fighters and re-entry craft. The ship features several launching hatches for efficient deployment including a large re-entry pod hatch. While not specifically designed for ship-to-ship combat, the Quiltra-Queleual still features a moderate number of anti-ship and anti-fighter weapons for attack and defense.
+Source: http://www.macross2.net/m3/sdfmacross/quiltra-queleual.htm</description>
+<picture>93986.jpg</picture>
+</character>
+<character id="48783" type="appears in" update="2012-09-13">
+<name>Thuverl-Salan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The mainstay of the Zentradi fleets for at least 500 millennia, the Thuverl-Salan Class Battleships remain the primary combat vessel of the Zentradi war machine. Built in the latter era of the Protoculture and used extensively during the Schism War, the Thuverl-Salan`s impressive design and functionality guaranteed a long service life. The ship features numerous beam and missile weapon emplacements all along the craft and the practical wedge-shaped hull enables the Thuverl-Salan to bring to bear the maximum number of guns possible against a target vessel at nearly any angle. In addition to firepower, the Thuverl-Salan also carries numerous Glaug mecha, Gnerl Fighter Pods and Re-Entry ships for transporting land-based mecha to the surface of a planet.
+Source: http://www.macross2.net/m3/sdfmacross/thurvel-salan.htm</description>
+<picture>93990.jpg</picture>
+</character>
+<character id="48785" type="appears in" update="2012-09-13">
+<name>Picket</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The picket is a patrol ship used by the Zentradi fleets for advance reconnaissance. Prior to any main fleet entering a potentially hostile or unexplored area of space, the picket ships are sent in to scout and report back to the command ship. When the Zentradi 67th Glruimual class branch http://anidb.net/ch10514 [Vrlitwhai] (Adoclass) Fleet entered the Sol system to find the crashed Supervision Army ship, two pickets were sent ahead to the planet upon which it crashed. The rebuilt http://anidb.net/ch21733 [SDF-1 Macross], having been set with an automated defense booby trap, fired upon the pickets and destroyed them both with a single shot. At 500 meters in length, the pickets were the smallest Zentradi capital ships seen in Space War I.
+Source: http://www.macross2.net/m3/sdfmacross/picket.htm</description>
+<picture>93992.jpg</picture>
+</character>
+<character id="48791" type="appears in" update="2012-09-13">
+<name>ARMD</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The ARMD Class vessels were designed as space carriers for variable fighters and other U.N.S. spacecraft. The ARMD began construction in April 2003 at the Lagrange Point 5 manufacturing station. The first two carriers ARMD-01 and ARMD-02 were commissioned in July 2008 and October 2008 respectively and were opertaional prior to Space War I in February 2009. Built by OTEC Company, the ARMD carriers featured OverTechnology with gravity control systems, a reaction heat pile system and even the fold drive (though this super dimension navigation system was never implemented). At 430 meters in length, the ARMD carriers were much smaller than the large http://anidb.net/ch21733 [SDF-1 Macross] and both ARMD-01 and ARMD-02 were originally meant to dock with the larger craft when the ship achieved orbit during its maiden voyage.
+As a carrier vessel, the ARMDs held numerous ships and mecha. ARMD-01 held 78 SF-A3 Lancer II space fighters and 270 QF-3000E Ghost fighters (as well as an unknown number of VF-1A variable fighters) just prior to Space War I. In addition to several hundred fighters, the ARMD carrier was armed with many weapons including beam cannons, small anti-aircraft cannons and launchers as well as large anti-ship reaction warheads. The ARMD possessed many large vernier thruster nozzles positioned all over the craft. These powerful thrusters granted the ARMD excellent maneuverability in space and also proved very useful for combat engagement and evasion.Both ARMD-01 and ARMD-02 were destroyed in the first battle of Space War I on February 7, 2009. However, both vessels engaged in combat with the Zentradi fleet and proved quite successful in destroying several large Zentradi capital warships with their anti-ship reaction warheads. Eventually, six more vessels of the ARMD Class were commissioned and both the original ships were replaced. To this day, ARMD-01 and ARMD-02 remain docked with the http://anidb.net/ch21733 [SDF-1 Macross] on Earth.Source: http://www.macross2.net/m3/sdfmacross/armd.htm</description>
+<picture>94009.jpg</picture>
+</character>
+<character id="49115" type="appears in" update="2012-09-21">
+<name>Mardook Oogata Senkan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>A large-type space battleship deployed in the Mardook military.
+Source: http://www.macross2.net/m3/macross2/mardook-largebattleship.htm</description>
+<picture>94567.jpg</picture>
+</character>
+<character id="49116" type="appears in" update="2012-09-21">
+<name>Sarride</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The largest standard combat spaceship of the Mardook fleet but much smaller than the Mobile Fortress.
+Source: http://www.macross2.net/m3/macross2/mardook-fleetflagship.htm</description>
+<picture>94568.jpg</picture>
+</character>
+<character id="49117" type="appears in" update="2012-09-21">
+<name>Mordook Haha Kan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The Mardook Mobile Fortress is the largest mobile carrier for the entire Mardook fleet. The massive vessel, some 50 kilometers wide, is commanded by Lord Emperor Ingues. From this giant vessel Ingues rules all the Mardook forces.
+Source: http://www.macross2.net/m3/macross2/mardook-mobilefortress.htm</description>
+<picture>94570.jpg</picture>
+</character>
+<character id="49118" type="appears in" update="2012-09-21">
+<name>Mardook Chuugata Senkan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>Common space-based battleship used by the Mardook military.
+Source: http://www.macross2.net/m3/macross2/mardook-mediumbattleship.htm</description>
+<picture>94571.jpg</picture>
+</character>
+<character id="49119" type="appears in" update="2012-09-21">
+<name>VC-079 SNN Valkyrie</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The VC-079 is a civilian aerospace craft owned and operated by SNN, one of the major news agencies on Earth. The craft is designed to work in both the atmosphere and space with a special launch booster that enables the VC-079 to achieve orbit. The cockpit is very large and features a transparent canopy on both the top and bottom sections of the nose. Equipped with a limited transformation system the civilian valkyrie can angle the engines downward to act as legs for vertical take off and landing capability. http://anidb.net/ch35306 [Kanzaki Hibiki] piloted the VC-079 owned by SNN from their corporate headquarters when the Mardook attacked Earth in 2092. http://anidb.net/ch35306 [Hibiki]`s passenger was SNN reporter Dennis, who`s coverage of the war with the Mardook would tragically turn out to be his final assignment.Source: http://www.macross2.net/m3/macross2/vc-079-valkyrie.htm</description>
+<picture>94573.jpg</picture>
+</character>
+<character id="49120" type="appears in" update="2012-09-21">
+<name>Zentradi-you One-man Sentou Pod</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The Battle Pod is the standard combat mecha of the Mardook`s Zentradi forces. It is a simple mecha, but is well armed with both beam cannons and missiles. A full-sized Zentradi pilots the Battle Pod while lying forward across almost the full length of the pod.
+Source: http://www.macross2.net/m3/macross2/battlepod.htm</description>
+<picture>94575.jpg</picture>
+</character>
+<character id="49121" type="appears in" update="2012-09-21">
+<name>Zentradi Shikikan-you Sentou Pod</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The Commander Type Battle Pod is used by commanding officers of the Mardook`s Zentradi Forces. The Commander Type Battle Pod larger than the standard model and has fewer weapons, but is most likely superior in performance to the regular http://anidb.net/ch49120 [Battle Pod].
+Source: http://www.macross2.net/m3/macross2/battlepodcommand.htm</description>
+<picture>94576.jpg</picture>
+</character>
+<character id="49123" type="appears in" update="2012-09-21">
+<name>Heracles</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>This is a large combat warship typical of the UN Forces fighting against the Mardook during their invasion of the Sol Solar System in 2092.
+Source: http://www.macross2.net/m3/macross2/heracles.htm</description>
+<picture>94579.jpg</picture>
+</character>
+<character id="49124" type="appears in" update="2012-09-21">
+<name>VF-2SS Valkyrie II</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The VF-2SS Valkyrie II is the main variable fighter of the UN Spacy in AD 2092. Development began in the 2060s and the VF-2SS first rollout was in 2072. The VF-2SS first deployment in combat was against a major Zentradi invasion in 2082. Born out of the VF-2 programs, the VF-2SS is a space-optimized craft using a rail gun as opposed to the older gatling gun pods. Like previous generation variable fighters, the VF-2SS can transform into Fighter, GERWALK and Battroid configurations for use in varied combat conditions. For combat the VF-2SS is armed with only a pair of beam cannons in the dorsal fuselage which becomes the head turret in Battroid mode. However, the VF-2SS Valkyrie II is rarely deployed without the Super Armor Pack (SAP) system equipped.
+The VF-2SS accommodates a single pilot held securely in the seat by restraint pads that fit into the shoulders of the flight suit rather than using the old lap belts of the VF-1. The cockpit controls utilize HOTAS and the control panels utilize touch screens in lieu of buttons or switches. The throttle and stick are mounted as part of articulated arms attached to the pilot`s forearms. The cockpit is spacious and even includes a large cargo compartment behind the main seat, large enough to fit an adult. During the events of the Mardook Invasion, SNN reporter http://anidb.net/ch35306 [Kanzaki Hibiki] was able to sit inside this compartment aboard the VF-2SS fighter of http://anidb.net/ch35304 [Silvie Gena].
+The VF-2SS was aggressively adopted by the UN Spacy and was found deployed in all space bases and carrier ships of the fleet. Though prolific in the UN Spacy, the VF-2SS was rarely found on Earth where the VF-2JA Icarus was the variable fighter used for planet side aerospace defense. During the Mardook Invasion of the Sol System in 2092, the VF-2SS was the primary combat variable fighter of the UN Spacy forces and distinguished itself as a capable war machine even against the vastly superior numbers of the Mardook forces.
+Source: http://www.macross2.net/m3/macross2/vf-2ss.htm</description>
+<picture>94581.jpg</picture>
+</character>
+<character id="49125" type="secondary cast in" update="2012-09-21">
+<name>Exxegran Giri</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>One of the very high ranking commanders of the U.N. Spacy. He has a noble spirit and is equally aware of how complacent the U.N. Spacy command has become. He appears quite personable as http://anidb.net/ch35304 [Silvie] and her Faerie teammates looks up to him as a father figure.</description>
+<picture>94584.jpg</picture>
+<seiyuu id="4438" picture="26713.jpg">Sakaguchi Yoshisada</seiyuu>
+</character>
+<character id="49126" type="appears in" update="2012-09-22">
+<name>Matsui</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Director of SNN.</description>
+<picture>94589.jpg</picture>
+<seiyuu id="3255" picture="39572.jpg">Keaton Yamada</seiyuu>
+</character>
+<character id="49127" type="appears in" update="2012-09-21">
+<name>Dennis Lone</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>A cameraman and a war correspondent in the SNN, he believes in presenting both sides of a story even if he has to sneak into an enemy stronghold in the heat of a battle just to get it. He thinks http://anidb.net/ch35306 [Hibiki] doesn`t understand what journalism is really all about but nevertheless sees potential in him. He dies during http://anidb.net/ch35306 [Hibiki]`s first assignment with him after being caught in an explosion in a Marduk battleship where they found an unconscious http://anidb.net/ch35303 [Ishtar], and his death has a significant impact on how http://anidb.net/ch35306 [Hibiki] looks at the world of journalism.Source: wiki</description>
+<picture>94587.jpg</picture>
+<seiyuu id="2053" picture="23204.jpg">Ootomo Ryuuzaburou</seiyuu>
+</character>
+<character id="49128" type="appears in" update="2012-09-22">
+<name>Producer</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>SNN`s producer.</description>
+<picture>94586.jpg</picture>
+<seiyuu id="409" picture="24867.jpg">Arimoto Kinryuu</seiyuu>
+</character>
+<character id="49129" type="secondary cast in" update="2012-09-23">
+<name>Nexx Gilbert</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>One of http://anidb.net/ch35304 [Silvie]`s colleagues and the champion Valkyrie pilot in the Solar System. He appears to be a bit narcissistic, probably as a result of variable fighter pilots in Earth society being bestowed treatment similar to that received by pop idols, and is the epitome of stereotypical "manliness". Although he doesn`t seem to go very far with http://anidb.net/ch35304 [Silvie] beyond a few dates, he is genuinely in love with her. He pilots a combat-worthy prototype of the http://anidb.net/ch49181 [VA-1SS Metal Siren] variable fighter during the U.N. Spacy`s fleet engagement against Marduk near the Moon and is given command of one of the two http://anidb.net/ch49178 [Macross Cannons] committed to resist the final Marduk assault on Earth.
+Source: wiki</description>
+<picture>94591.jpg</picture>
+<seiyuu id="199" picture="23218.jpg">Shimada Bin</seiyuu>
+</character>
+<character id="49148" type="secondary cast in" update="2012-09-23">
+<name>Nastasha Tot</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>A member of http://anidb.net/ch35304 [Silvie Gena]`s Faerie Squadron. During the final battle of the war against Marduk, she is assigned the position of a bridge officer aboard the http://anidb.net/ch49178 [Macross Cannon] captained by http://anidb.net/ch49129 [Nexx].
+Source: wiki</description>
+<picture>94620.jpg</picture>
+<seiyuu id="6189" picture="30860.jpg">Hikita Yumi</seiyuu>
+</character>
+<character id="49149" type="secondary cast in" update="2012-09-23">
+<rating votes="1">6.09</rating>
+<name>Kujou Saori</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>A member of http://anidb.net/ch35304 [Silvie Gena]`s Faerie Squadron. She is interested in http://anidb.net/perl-bin/Nexx Gilbert and is always looking for a way to get closer to him. During the final battle of the war against Marduk, she is assigned the position of a bridge officer aboard the http://anidb.net/ch49178 [Macross Cannon] captained by http://anidb.net/perl-bin/Nexx Gilbert.
+Source: wiki</description>
+<picture>94621.jpg</picture>
+<seiyuu id="32407" picture="86706.jpg">Hara Aya</seiyuu>
+</character>
+<character id="49150" type="secondary cast in" update="2012-09-23">
+<name>Amy Rock</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>A member of http://anidb.net/ch35304 [Silvie Gena]`s Faerie Squadron. During the final battle of the war against Marduk, she is assigned the position of a bridge officer aboard the http://anidb.net/ch49178 [Macross Cannon] captained by http://anidb.net/ch49129 [Nexx].
+Source: wiki</description>
+<picture>94622.jpg</picture>
+<seiyuu id="1662" picture="25819.jpg">Kouda Mariko</seiyuu>
+</character>
+<character id="49151" type="appears in" update="2012-09-22">
+<name>Mardook Sekkou Kan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>Mardook scout ship.</description>
+<picture>94623.jpg</picture>
+</character>
+<character id="49152" type="appears in" update="2012-09-22">
+<name>Zentradi-you Powered Suit</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The Zentradi under the control of the Mardook forces made use of familiar yet advanced Zentradi vehicles. Descended from the http://anidb.net/ch49049 [Nousjadeul-Ger], the Zentradi Powered Suit is a new battle suit armed with a plasma cannon (mounted on the top rear torso) and a large impact cannon (mounted forward in the center chassis). The Powered Suit has very large engines and it has been suggested the suit is designed for high mobility in space. These powered suits were seen extensively during the Mardook Invasion in 2092.
+Source: http://www.macross2.net/m3/macross2/zentradipoweredsuit.htm</description>
+<picture>94628.jpg</picture>
+</character>
+<character id="49153" type="appears in" update="2012-09-22">
+<name>Meltlandi-you Powered Suit</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Like the male Zentradi, the female Meltlandi were also enslaved by the Mardook and forced to fight in their wars. However, unlike the vehicles of the enslaved Zentrandi, the Meltlandi Powered Suit is a completely new design. The primary armament of this new battle suit is a beam lance and the large engines suggest the suit is designed for high mobility. Meltlandi Powered Suits were encountered by UN Forces many times during the Mardook Invasion of 2092.
+Source: http://www.macross2.net/m3/macross2/meltrandipoweredsuit.htm</description>
+<picture>94629.jpg</picture>
+</character>
+<character id="49154" type="appears in" update="2012-09-22">
+<name>Gigamesh (Feff Ki)</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The leader of the Mardook forces, http://anidb.net/ch35362 [Feff], pilots a customized battle suit called the Gigamesh. Heavily armored yet highly maneuverable, the Gigamesh excels at close and medium ranged combat. Built into the many armored sections of the suit are a series of anti-armor battle claws and blades that are typically retracted during flight. The most powerful of these close combat weapons is a pair of wing cutters mounted via extendable arms upon the rear torso of the battle suit. These large blades can be activated in an instant and the powerful arm mounts can swing the blades outward to slice any enemy craft. In addition to the many anti-armor blades, the Gigamesh also possesses two missile launchers loaded with 100 mini-missiles for short-to-medium range combat. The pilot is situated inside the heavily armored center torso and controls the suit via a fully integrated cockpit. An armored mask covers the head unit to protect the sensors during combat and can be lifted when required.
+Source: http://www.macross2.net/m3/macross2/gigamesh-feff.htm</description>
+<picture>94630.jpg</picture>
+</character>
+<character id="49155" type="appears in" update="2012-09-22">
+<name>Caster</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>SNN`s newscaster.</description>
+<picture>94632.jpg</picture>
+<seiyuu id="2279" picture="23207.jpg">Satou Masaharu</seiyuu>
+</character>
+<character id="49156" type="appears in" update="2012-09-22">
+<name>Mash</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>One of http://anidb.net/ch35306 [Hibiki]`s friends and transsexual owner of a beauty salon. His friendship with http://anidb.net/ch35306 [Hibiki] is good enough such that he is the one http://anidb.net/ch35306 [Hibiki] turns to when the latter decides to harbor http://anidb.net/ch35303 [Ishtar] after rescuing her on an assignment.
+Source: wiki</description>
+<picture>94633.jpg</picture>
+<seiyuu id="198" picture="24957.jpg">Kusao Takeshi</seiyuu>
+</character>
+<character id="49157" type="appears in" update="2012-09-22">
+<name>VF-2JA Icarus</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Designed as a second main variable fighter of the UN Forces, the VF-2JA Icarus is a nimble and well-armed variable fighter. The UN Forces decided that the best use of variable fighter resources was to develop dedicated space variable fighters and atmospheric variable fighters. Though all variable fighters were equipped to operate in all environments, the http://anidb.net/ch49124 [VF-2SS Valkyrie II] was optimized for operation in space while the VF-2JA Icarus was optimized for operation within the atmosphere. The VF-2JA was also more heavily armed in standard configuration and included an optional Missile Pack system that could be used in the atmosphere.
+The VF-2JA Icarus differs from the http://anidb.net/ch49124 [VF-2SS] by utilizing only beam weaponry. The main armament is a beam rifle and two beam cannons mounted in the forward nose. The head unit also features two laser cannons that can be utilized in all combat modes. The special Icarus missile packs are a pair of two-tube launchers that add to the VF-2JA the capability to fire missiles. The VF-2JA was a very high performance variable fighter and was able to engage any enemy mecha. During the Mardook Invasion, the VF-2JA fought a variety of Mardook mecha and was more than adequate to defeat the enemy.
+Source: http://www.macross2.net/m3/macross2/vf-2ja.htm</description>
+<picture>94634.jpg</picture>
+</character>
+<character id="49158" type="appears in" update="2012-09-22">
+<name>Gigamesh</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The Gigamesh is a heavily equipped main mobile battle suit utilized by the Mardook forces. The Gigamesh excels in close combat and features ten retractable battle claws capable of rending through mecha armor. In addition to the battle claws, the Gigamesh features two large, retractable wing cutters mounted on the rear torso near each shoulder. The deadly wing cutters can be extended on arms to increase their attack range and strike at various angles. While the Gigamesh is a powerful close-combat vehicle, it also features one hundred mini-missiles in two missile launchers mounted one under each arm cowter (elbow armor) for use in ranged attack. The Gigamesh also features mobility equal to a Valkyrie, making this heavily mecha a very potent war machine.
+Source: http://www.macross2.net/m3/macross2/gigamesh.htm</description>
+<picture>94636.jpg</picture>
+</character>
+<character id="49159" type="appears in" update="2012-09-22">
+<name>Gloria</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>This vessel served as the flagship of the UN Forces defense fleet during the Mardook Invasion of 2092.
+Source: http://www.macross2.net/m3/macross2/gloria.htm</description>
+<picture>94637.jpg</picture>
+</character>
+<character id="49160" type="appears in" update="2012-09-22">
+<name>VA-1SS Metal Siren Replica</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>A single-mode trial production unarmed aircraft announced during Moon Festival.
+Source: http://www.macross2.net/m3/macross2/va-1ss-replica.htm</description>
+<picture>94638.jpg</picture>
+</character>
+<character id="49162" type="secondary cast in" update="2012-09-22">
+<name>Wendy Ryder</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>An idol singer who is used in the U.N. Spacy propaganda releases. She is known for singing http://anidb.net/s9034 [Valkyrie de Sasotte] and http://anidb.net/s9032 [Ima wa Tomodachi] during the annual U.N. Spacy Moon Festival.
+Source: wiki</description>
+<picture>94640.jpg</picture>
+<seiyuu id="22496">Satou Yukiyo</seiyuu>
+</character>
+<character id="49169" type="appears in" update="2012-09-22">
+<name>Grave</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<picture>94651.jpg</picture>
+</character>
+<character id="49172" type="secondary cast in" update="2012-09-22">
+<name>Ingues</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Supreme ruler of the Marduk Empire. He is cruel, despotic, and insanely-preoccupied with eliminating any culture distinct from that of Marduk, having no problem ordering the destruction of even his own forces over the slightest presence of an alien culture.</description>
+<picture>94672.jpg</picture>
+<seiyuu id="351" picture="132760.jpg">Okiayu Ryoutarou</seiyuu>
+</character>
+<character id="49175" type="appears in" update="2012-09-22">
+<name>Mesena</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>94676.jpg</picture>
+<seiyuu id="1913" picture="26099.jpg">Chiba Isshin</seiyuu>
+</character>
+<character id="49176" type="appears in" update="2012-09-22">
+<name>Volf</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Mardook fleet commander.</description>
+<picture>94660.jpg</picture>
+<seiyuu id="1986" picture="1919.gif">Iizuka Shouzou</seiyuu>
+</character>
+<character id="49177" type="appears in" update="2012-09-22">
+<name>Phalanx (Kai)</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Successor to point-defense http://anidb.net/ch48997 [Destroid Phalanx]. Although exclusively used in atmosphere, strengthening armor and fire-power for all-environment-use is possible. Missile pods can move independently for a large area of attack. Like all destroids of this generation, rollers are installed in the soles of the feet to overcome the issue of speed.
+Source: http://www.macross2.net/m3/macross2/destroid-phalanxcustom.htm</description>
+<picture>94661.jpg</picture>
+</character>
+<character id="49178" type="appears in" update="2012-09-22">
+<name>Macross Cannon</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The massive Macross Cannon vessels are heavily armed ships designed for intense anti-ship combat. Over 6,000 meters long, this class of combat vessel is armed with four Zentradi-style cannons that open along the horizontal axis to collimate the heavy converging energy beams for use against enemy warships. The Macross Cannons are extremely effective vessels for countering enemy warships and their multiple heavy guns allow a single Macross Cannon to destroy multiple ships with one volley. While potent against all kinds of enemy warships the Macross Cannons are quite vulnerable to swarms of enemy craft and in sufficient numbers the ships can be successfully assaulted. In the war with the Mardook in 2092, the UN Spacy fielded many Macross Cannons and they initially inflicted heavy losses upon the Mardook forces. However, the Mardook fielded far more ships that eventually overwhelmed the lesser number of Macross Cannons and many of these powerful vessels were lost. Captain http://anidb.net/ch49129 [Nexx] commanded a Macross Cannon in the final battle of the Mardook war.
+Source: http://www.macross2.net/m3/macross2/macrosscannon.htm</description>
+<picture>94662.jpg</picture>
+</character>
+<character id="49179" type="appears in" update="2012-09-22">
+<name>Tougou Gun Hyoujun Senkan</name>
+<gender>unknown</gender>
+<charactertype id="4">Vessel</charactertype>
+<description>The standard battleship of the UN Spacy forces circa 2092.
+Source: http://www.macross2.net/m3/macross2/standardbattleship.htm</description>
+<picture>94664.jpg</picture>
+</character>
+<character id="49180" type="appears in" update="2012-09-22">
+<name>Defender EX</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Successor to http://anidb.net/ch48891 [Defender] Anti-Aircraft Destroid. Like all Destroids of this generation, rollers are installed in the soles of the feet to overcome the the issue of speed.
+Source: http://www.macross2.net/m3/macross2/destroid-defenderex.htm</description>
+<picture>94665.jpg</picture>
+</character>
+<character id="49181" type="appears in" update="2012-09-22">
+<name>VA-1SS Metal Siren</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>The VA-1SS Metal Siren was the newest variable fighter and was piloted by Captain http://anidb.net/ch49129 [Nexx].
+Source: http://www.macross2.net/m3/macross2/va-1ss.htm</description>
+<picture>94666.jpg</picture>
+</character>
+<character id="49183" type="appears in" update="2012-09-22">
+<name>Mardook Gun Kahen Sentou Mecha</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Mardook variable fighter piloted by full-sized Zentradi in Regult-style cockpit.
+Source: http://www.macross2.net/m3/macross2/variablefighterpowerarmor.htm</description>
+<picture>94668.jpg</picture>
+</character>
+<character id="49185" type="appears in" update="2012-09-22">
+<name>GERWALKroid</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>A single-mode GERWALK-type destroid armed with numerous missile launchers. The GERWALKroid has the heavy armament of a destroid and the mobility of a battroid and was developed as an inexpensive substitute for the Valkyrie without long-distance flight capabilities.
+Source: http://www.macross2.net/m3/macross2/gerwalkroid.htm</description>
+<picture>94671.jpg</picture>
+</character>
+<character id="49186" type="secondary cast in" update="2012-09-22">
+<name>Balser</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Commander of the U.N. Spacy`s 12th Fleet, he commands the fleet flagship http://anidb.net/ch49159 [Gloria] and leads a valiant but ultimately futile defense against the Marduk invasion near the Moon. The http://anidb.net/ch49159 [Gloria] is destroyed when the sheer number of Marduk warships overwhelms the defenders.
+Source: wiki</description>
+<picture>94673.jpg</picture>
+<seiyuu id="3225" picture="24205.jpg">Watabe Takeshi</seiyuu>
+</character>
+<character id="49187" type="appears in" update="2012-09-22">
+<name>VF-XX Zentradi Valkyrie</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>A two-mode variable fighter craft used by the Zentradi forces of the UN Spacy.
+Source: http://www.macross2.net/m3/macross2/vf-xx.htm</description>
+<picture>94675.jpg</picture>
+</character>
+<character id="49188" type="appears in" update="2012-09-22">
+<name>Tomahawk Mk.II</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Successor to http://anidb.net/ch48881 [Tomahawk]. In addition to armament, movement was improved with a wider degree of freedom in the joints. Like all destroids of this generation, rollers are installed in the soles of the feet to overcome the issue of speed.
+Source: http://www.macross2.net/m3/macross2/destroid-tomahawkii.htm</description>
+<picture>94682.jpg</picture>
+</character>
+<character id="49189" type="appears in" update="2012-09-22">
+<name>Giant Monster</name>
+<gender>unknown</gender>
+<charactertype id="2">Mecha</charactertype>
+<description>Developed from the http://anidb.net/ch48862 [Monster]. On ground, it uses a combination of a hovercraft and anti-gravity system. On the deck of a space battleship deck, it uses a linear system to move.
+Source: http://www.macross2.net/m3/macross2/destroid-giantmonster.htm</description>
+<picture>94683.jpg</picture>
+</character>
+</characters>
+<episodes>
+<episode id="5584" update="2011-10-20">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>1992-05-21</airdate>
+<rating votes="3">4.32</rating>
+<title xml:lang="ja">コンタクト</title>
+<title xml:lang="en">Contact</title>
+<title xml:lang="fr">Contact</title>
+<title xml:lang="x-jat">Contact</title>
+</episode>
+<episode id="5585" update="2011-10-20">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>1992-10-22</airdate>
+<rating votes="3">2.91</rating>
+<title xml:lang="ja">ステーション・ブレーク</title>
+<title xml:lang="en">Station Break</title>
+<title xml:lang="fr">Point de rupture</title>
+<title xml:lang="x-jat">Station Break</title>
+</episode>
+<episode id="5586" update="2011-10-20">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>1992-09-24</airdate>
+<rating votes="3">2.91</rating>
+<title xml:lang="ja">マルドゥーク・ディスオーダ</title>
+<title xml:lang="en">Marduk Disorder</title>
+<title xml:lang="fr">Aux mains des Marduks</title>
+<title xml:lang="x-jat">Marduk Disorder</title>
+</episode>
+<episode id="5587" update="2011-10-20">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>1992-08-21</airdate>
+<rating votes="3">4.32</rating>
+<title xml:lang="ja">フェスティバル</title>
+<title xml:lang="en">Festival</title>
+<title xml:lang="fr">Festival</title>
+<title xml:lang="x-jat">Festival</title>
+</episode>
+<episode id="5588" update="2011-10-20">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>1992-06-21</airdate>
+<rating votes="3">3.93</rating>
+<title xml:lang="ja">イシュタル</title>
+<title xml:lang="en">Ishtar</title>
+<title xml:lang="fr">Ishtar</title>
+<title xml:lang="x-jat">Ishtar</title>
+</episode>
+<episode id="5589" update="2011-10-20">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>1992-11-21</airdate>
+<rating votes="3">2.37</rating>
+<title xml:lang="ja">シング・アロング</title>
+<title xml:lang="en">Sing Along</title>
+<title xml:lang="fr">La force de l`amour</title>
+<title xml:lang="x-jat">Sing Along</title>
+</episode>
+<episode id="28846" update="2012-05-22">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>1992-05-21</airdate>
+<rating votes="1">5.67</rating>
+<title xml:lang="en">Ending</title>
+</episode>
+<episode id="111797" update="2011-10-20">
+<epno type="6">O2</epno>
+<length>75</length>
+<title xml:lang="en">Cinema version - Part2</title>
+</episode>
+<episode id="111798" update="2011-10-20">
+<epno type="6">O1</epno>
+<length>75</length>
+<title xml:lang="en">Cinema version - Part1</title>
+</episode>
+<episode id="139767" update="2012-05-22">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>1992-05-21</airdate>
+<title xml:lang="en">Opening</title>
+</episode>
+</episodes>
+</anime>
