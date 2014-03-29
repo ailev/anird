@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+  <!ENTITY owllist "http://www.co-ode.org/ontologies/list.owl#" >
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+  <!ENTITY meta "http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/metadata#" >
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+  <!ENTITY basens "http://example.org/rdl/" >
+  <!ENTITY p7tm "http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tm#" >
+  <!ENTITY dm "http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#" >
+]>
+
+<rdf:RDF 
+  xmlns="http://example.org/rdl/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:owllist="http://www.co-ode.org/ontologies/list.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:meta="http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/metadata#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:basens="http://example.org/rdl/"
+  xmlns:p7tm="http://standards.iso.org/iso/ts/15926/-8/ed-1/tech/reference-data/p7tm#"
+  xmlns:dm="http://rds.posccaesar.org/2008/02/OWL/ISO-15926-2_2003#"
+>
+<dm:Class rdf:about="&basens;id7c4e2419-0af9-4297-a571-1a2a03a28152">
+<rdfs:label>Staff position</rdfs:label>
+</dm:Class>
+<dm:Class rdf:about="&basens;id9e498b6d-eb75-4b5b-a494-ea3066533ae5">
+<rdfs:label>Anime/manga</rdfs:label>
+</dm:Class>
+<dm:ClassOfPerson rdf:about="&basens;id93e862e7-45ba-4640-83ff-2ea7e61fddeb">
+<rdfs:label>Person</rdfs:label>
+</dm:ClassOfPerson>
+</rdf:RDF>
