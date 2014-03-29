@@ -2,25 +2,38 @@ import xml.etree.ElementTree as ET
 import requests
 import re
 import time
+from os import path
+
+base_dir = path.dirname( __file__ );
+data_dir = path.join( base_dir, 'data' )
 
 
 ANN_REPORTS_URL = 'http://www.animenewsnetwork.com/encyclopedia/reports.xml'
 
 @public('collectors.AnnTitle')
 def handler(params, pattern_name):
+	root = None
 	if 'nlist' in params:
-		payload = {'id': '155', 'nlist': params['nlist']}
-		result = requests.get(ANN_REPORTS_URL, params=payload)
-		if result.status_code == 200:
-			root = ET.fromstring(result.content)
-			for item in root.findall('item'):
-				title = item.find('name').text
-				id = item.find('id').text
-				vintage = item.find('vintage')
-				year = None
-				if vintage is not None:
-					year = vintage.text.split('-')[0]
-				yield { 'Title' : title, 'TitleId' : id, 'Year' : year  }
+		if params['nlist'] == 'all':
+			if path.exists(path.join( data_dir, 'reports.xml' )):
+				tree = ET.parse(path.join( data_dir, 'reports.xml' ))
+				if tree:
+					root = tree.getroot()
+		else:
+			payload = {'id': '155', 'nlist': params['nlist']}
+			result = requests.get(ANN_REPORTS_URL, params=payload)
+			if result.status_code == 200:
+				root = ET.fromstring(result.content)
+
+	if root:		
+		for item in root.findall('item'):
+			title = item.find('name').text
+			id = item.find('id').text
+			vintage = item.find('vintage')
+			year = None
+			if vintage is not None:
+				year = vintage.text.split('-')[0]
+			yield { 'Title' : title, 'TitleId' : id, 'Year' : year  }
 
 ANN_API_URL = 'http://www.animenewsnetwork.com/encyclopedia/api.xml'
 
