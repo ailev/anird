@@ -44,3 +44,5 @@ class AniDB():
 		if path.isfile(filename_xml):
 			return filename_xml
 
+import extensions.aniDB.collector
+
