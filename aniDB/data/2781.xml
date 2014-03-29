@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anime id="2781" restricted="false">
+<type>TV Series</type>
+<episodecount>13</episodecount>
+<startdate>2005-01-01</startdate>
+<enddate>2005-03-26</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Magical Canan</title>
+<title xml:lang="x-jat" type="synonym">Mahou Canan</title>
+<title xml:lang="x-jat" type="short">kanantv</title>
+<title xml:lang="x-jat" type="short">canantv</title>
+<title xml:lang="ja" type="official">まじかるカナン</title>
+</titles>
+<relatedanime>
+<anime id="1556" type="Alternative Setting">Septem Charm Magical Kanan</anime>
+</relatedanime>
+<similaranime>
+<anime id="2430" approval="12" total="14">Mahou Shoujo Lyrical Nanoha</anime>
+</similaranime>
+<url>http://www.mxtv.co.jp/kanan/</url>
+<creators>
+<name id="6228" type="Direction">Abe Masashi</name>
+<name id="8449" type="Original Plan">Terios</name>
+<name id="5499" type="Character Design">Kouno Yoshitaka</name>
+<name id="1922" type="Character Design">Yamada Masaki</name>
+<name id="3529" type="Character Design">Watanabe Akio</name>
+<name id="5810" type="Series Composition">Yamada Mitsuhiro</name>
+<name id="8449" type="Original Work">Terios</name>
+<name id="9057" type="Chief Animation Direction">Ishikura Keiichi</name>
+<name id="5499" type="Chief Animation Direction">Kouno Yoshitaka</name>
+<name id="6086" type="Chief Animation Direction">Satou Michio</name>
+<name id="1922" type="Chief Animation Direction">Yamada Masaki</name>
+<name id="910" type="Animation Work">AIC A.S.T.A</name>
+</creators>
+<description>* Based on a game by http://anidb.net/cr8449 [Terios].
+http://anidb.net/ch37240 [Chihaya] was suddenly chosen to become a magical girl by http://anidb.net/ch37234 [Natsuki], who is a boy who came from a magical land called Ever Green. Will Chihaya chose to accept her fate?
+Source: AnimeNfo</description>
+<ratings>
+<permanent count="201">3.76</permanent>
+<temporary count="206">6.37</temporary>
+<review count="2">5.58</review>
+</ratings>
+<picture>3793.jpg</picture>
+<categories>
+<category id="269" parentid="268" hentai="false" weight="600">
+<name>Game</name>
+<description>Based on an interactive (even if minimally so) form of entertainment software, generally available for PCs, consoles or arcade machines.</description>
+</category>
+<category id="293" parentid="269" hentai="false" weight="600">
+<name>Dating Sim - Visual Novel</name>
+<description>The two terms are similar yet different, however, the fact that they look and `feel` the same outweighs the technical differences. For clarification, visual novels are considered a sub-genre of adventure games and the term does not cover simulations. While the two genres often share a common visual presentation, dating sims are sometimes considered to be more statistically based than the "choose your own adventure" style of visual novels; basically, the choices you make might change something else than just the story arc (or your next porn pic). Dating sims can involve several technical elements such as a time limit, several statistics such as looks and charm which can be boosted through exercise, or an "attraction meter" which can increase or decrease depending on one`s decisions.</description>
+</category>
+<category id="175" parentid="15" hentai="false" weight="400">
+<name>Magic</name>
+<description>In a traditional Fantasy anime with medieval setting, the lack of technology is "compensated" by the introduction of the supernatural, i.e. spell-casting, magic wands, and magic circles. &#13;
+&#13;
+In another setting long-lost technology may be so advanced that it is mistaken for magic (Arthur C. Clarke: "Any sufficiently advanced technology is indistinguishable from magic"). See also related tag: science and magic coexist.</description>
+</category>
+<category id="21" parentid="317" hentai="false" weight="100">
+<name>School Life</name>
+<description>Since a large part of the anime audience still takes part in school life or is visiting college, it is only natural to choose a setting the audience can identify with, be it elementary, middle, or high school. For the older viewers a college setting with more mature real-life problems is appropriate. And since clubs take up so much time in the lives of students, these are obviously also important.</description>
+</category>
+<category id="23" parentid="22" hentai="false" weight="400">
+<name>Japan</name>
+<description>Last stronghold for humanity, if Tokyo falls, it`s all over. Tokyo Tower will undoubtedly fall anyway.</description>
+</category>
+<category id="247" parentid="313" hentai="false" weight="600">
+<name>Mahou Shoujo</name>
+<description>Magical girls (known in Japan as majokko, and in the West as mahou shoujo) refers to young girls with superhuman abilities, usually involving magic and transformations.</description>
+</category>
+<category id="283" parentid="282" hentai="false" weight="400">
+<name>Pantsu</name>
+<description>"Panties" in Japanese. Upskirt views in various positions are typical, however all forms of partial or fully exposed panties are accepted. Exposure is usually accidental, but may also be deliberate. Pantsu views may be exclusive to the viewer without impacting any characters. Bikinis are not pantsu.</description>
+</category>
+<category id="271" parentid="269" hentai="false" weight="600">
+<name>Erotic Game</name>
+<description>An erotic game (eroge) is a Japanese video or computer game that features erotic content, usually in the form of anime-style artwork. In English, eroge are often called hentai games in keeping with the English slang definition of hentai. This is sometimes shortened to H games. In Japan, eroge are also referred to as 18+ games. Most erotic games are visual novels or dating sims but are not limited to them.&#13;
+&#13;
+Any anime adaptation of a game that contains (or had a version that contains) adult content (generally sex scenes), regardless of how some fanboys blabber on how "the story in that visual novel was too good to be labelled as porn!", should definitely get this category added under them. This should make it pretty clear as to what is an erotic game and what is not.</description>
+</category>
+<category id="17" parentid="313" hentai="false" weight="200">
+<name>Comedy</name>
+<description>Anime whose central struggle causes hilarious results. These stories are built upon funny characters, situations and events. A comedy anime is laced with humour and sets out to provoke laughter from the audience.&#13;
+&#13;
+Japanese humour can be a bit strange to westerners, so if you`re new to this type of humour, just bear with it; it`ll most likely grow on you if you`re a fan of other kinds of comedy.</description>
+</category>
+<category id="154" parentid="313" hentai="false" weight="100">
+<name>Horror</name>
+<description>The horror cinematic genre is characterized by the attempt to make the viewer experience dread, fear, terror, or horror. Often their plots involve the intrusion of an evil force, event or personage, sometimes of supernatural origin, on the mundane world and the consequences thereof.</description>
+</category>
+<category id="15" parentid="313" hentai="false" weight="500">
+<name>Fantasy</name>
+<description>Imaginative or fanciful work, especially one dealing with supernatural elements and themes.</description>
+</category>
+<category id="183" parentid="15" hentai="false" weight="500">
+<name>Contemporary Fantasy</name>
+<description>Magic and supernatural beings exist secretly in what is generally regarded as the real world. Such elements may have originated from another world. Stories where a modern-day character travels to an alternate fantasy world are not considered contemporary fantasy.</description>
+</category>
+<category id="79" parentid="3" hentai="false" weight="600">
+<name>Seinen</name>
+<description>In the context of manga and associated media, the word seinen refers to a male audience roughly between the ages of 15 and 44. In Japanese, the word means simply "young man", and has no anime/manga-related connotations at all. It does not comprise a style or a genre per se, but rather indicates the publisher`s intended target demographic.</description>
+</category>
+<category id="485" parentid="313" hentai="false" weight="300">
+<name>Henshin</name>
+<description>Japanese for "transformation" (metamorphosis or disguise).
+
+A "henshin anime" is any anime, where the characters or their costumes transform, such as Sailor Moon. The henshin switches on the character`s special powers, and is frequently accompanied by a costume change. Often the change of clothing is the only outward indicator that the character has changed and yet nobody seems to notice the hero`s true self.
+
+Most henshin heroes have a special item which they use to change into their heroic form. These items are usually activated by a command phrase (which is often in Engrish, for some reason), triggering a transformation sequence.</description>
+</category>
+</categories>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>4850</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>349</identifier>
+</externalentity>
+</resource>
+<resource type="3">
+<externalentity>
+<identifier>1642</identifier>
+<identifier>vccuqa</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.mxtv.co.jp/kanan/</url>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>まじかるカナン#.E3.83.86.E3.83.AC.E3.83.93.E3.82.A2.E3.83.8B.E3.83.A1.E7.89.88</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>322075</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>7172</identifier>
+</externalentity>
+</resource>
+<resource type="14">
+<externalentity>
+<identifier>6261</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="645" approval="1" spoiler="false" localspoiler="false" globalspoiler="false" update="2009-05-22">
+<name>comic relief animal sidekick</name>
+<count>228</count>
+<description>Every mahou shoujo anime needs them, the cute little critters that are supposed to help the protagonists but in reality are nothing but useless bystanders most often abused for gags. Kids love them but they can also often turn into an annoyance.</description>
+</tag>
+<tag id="586" approval="2" spoiler="false" localspoiler="false" globalspoiler="false" update="2009-06-04">
+<name>remake</name>
+<count>59</count>
+<description>This anime is a remake of a previously released story, anime, or movie.</description>
+</tag>
+</tags>
+<characters>
+<character id="37231" type="secondary cast in" update="2011-10-01">
+<name>Calendula</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1665" picture="19756.jpg">Takahashi Chiaki</seiyuu>
+</character>
+<character id="37232" type="secondary cast in" update="2011-10-01">
+<name>Jubanchicchi</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="9704" picture="42147.jpg">Yasui Kunihiko</seiyuu>
+</character>
+<character id="37233" type="secondary cast in" update="2011-10-01">
+<name>Tsuyuha</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="461" picture="76718.jpg">Hitomi</seiyuu>
+</character>
+<character id="37234" type="main character in" update="2011-10-01">
+<name>Natsuki</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>61781.jpg</picture>
+<seiyuu id="2226" picture="23215.jpg">Suganuma Hisayoshi</seiyuu>
+</character>
+<character id="37235" type="secondary cast in" update="2011-10-01">
+<name>Hazuna</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="326" picture="17162.jpg">Mizushima Takahiro</seiyuu>
+</character>
+<character id="37236" type="secondary cast in" update="2011-10-01">
+<name>Fennel</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="3136" picture="24121.jpg">Suzuoki Hirotaka</seiyuu>
+</character>
+<character id="37237" type="secondary cast in" update="2011-10-01">
+<name>Jounouchi</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1733" picture="25839.jpg">Tanaka Hideyuki</seiyuu>
+</character>
+<character id="37238" type="secondary cast in" update="2011-10-01">
+<name>Taeko-sensei</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1901" picture="21050.jpg">Kobayashi Yuuko</seiyuu>
+</character>
+<character id="37239" type="secondary cast in" update="2012-04-25">
+<name>Kojima Emi</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="184" picture="23381.jpg">Miyazaki Ui</seiyuu>
+</character>
+<character id="37240" type="main character in" update="2011-10-01">
+<name>Hiiragi Chihaya</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>61770.jpg</picture>
+<seiyuu id="346" picture="17184.jpg">Hirohashi Ryou</seiyuu>
+</character>
+<character id="37241" type="secondary cast in" update="2012-04-25">
+<name>Hiiragi Emi</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="229" picture="152363.jpg">Itou Miki</seiyuu>
+</character>
+<character id="37242" type="main character in" update="2011-10-01">
+<name>Mizuki Sayaka</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>61780.jpg</picture>
+<seiyuu id="18" picture="36736.jpg">Mizuki Nana</seiyuu>
+</character>
+<character id="37243" type="secondary cast in" update="2011-10-01">
+<name>Koube Shiba</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="2089" picture="151696.jpg">Morota Kaoru</seiyuu>
+</character>
+<character id="37244" type="secondary cast in" update="2011-10-01">
+<name>Saikiyou Ayumi</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1628" picture="19670.jpg">Ishige Sawa</seiyuu>
+</character>
+<character id="37245" type="secondary cast in" update="2011-10-01">
+<name>Suzuhara Tsuyoshi</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="31735" picture="85444.jpg">Kawasugi Takayuki</seiyuu>
+</character>
+<character id="37246" type="secondary cast in" update="2011-10-01">
+<name>Suzuhara Miyuri</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="2945" picture="23372.jpg">Ishizuka Sayori</seiyuu>
+</character>
+<character id="37247" type="secondary cast in" update="2011-10-01">
+<name>Takasaki Tomoe</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="391" picture="70156.jpg">Itsuki Yui</seiyuu>
+</character>
+<character id="37248" type="secondary cast in" update="2011-10-01">
+<name>Carmine</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>61769.jpg</picture>
+<seiyuu id="346" picture="17184.jpg">Hirohashi Ryou</seiyuu>
+</character>
+<character id="37249" type="secondary cast in" update="2011-10-01">
+<name>Cerulean Blue</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>61773.jpg</picture>
+<seiyuu id="18" picture="36736.jpg">Mizuki Nana</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="27336" update="2011-10-01">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>2005-01-01</airdate>
+<rating votes="3">5.73</rating>
+<title xml:lang="ja">魔法戦士カアマイン登場!</title>
+<title xml:lang="en">Magical Warrior Carmein Appears!</title>
+<title xml:lang="x-jat">Mahou Senshi Carmein Toujou!</title>
+</episode>
+<episode id="34124" update="2011-10-01">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>2005-01-08</airdate>
+<rating votes="2">4.58</rating>
+<title xml:lang="ja">はぞの転校生</title>
+<title xml:lang="en">The Mysterious Transfer Student</title>
+<title xml:lang="x-jat">Hazo no Tenkousei</title>
+</episode>
+<episode id="34195" update="2011-10-01">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>2005-01-15</airdate>
+<rating votes="2">6.65</rating>
+<title xml:lang="ja">ちはやの恋の物語?</title>
+<title xml:lang="en">Chihaya`s Tale of Love?</title>
+<title xml:lang="x-jat">Chihaya no Koi no Monogatari?</title>
+</episode>
+<episode id="34196" update="2011-10-01">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>2005-01-22</airdate>
+<rating votes="2">6.65</rating>
+<title xml:lang="ja">魔法戦士セルリアンブルー</title>
+<title xml:lang="en">Magic Warrior Cerulean Blue</title>
+<title xml:lang="x-jat">Mahou Senshi Cerulean Blue</title>
+</episode>
+<episode id="34197" update="2011-10-01">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>2005-01-29</airdate>
+<rating votes="2">6.65</rating>
+<title xml:lang="ja">エンジェルキッスの休日</title>
+<title xml:lang="en">Angel Kiss`s Holiday</title>
+<title xml:lang="x-jat">Angel Kiss no Kyuujitsu</title>
+</episode>
+<episode id="34198" update="2011-10-01">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>2005-02-05</airdate>
+<rating votes="2">4.58</rating>
+<title xml:lang="ja">ナツキ危機一髪!</title>
+<title xml:lang="en">Natsuki Critical Moment!</title>
+<title xml:lang="x-jat">Natsuki Kikiippatsu!</title>
+</episode>
+<episode id="34199" update="2011-10-01">
+<epno type="1">7</epno>
+<length>25</length>
+<airdate>2005-02-12</airdate>
+<rating votes="2">4.50</rating>
+<title xml:lang="ja">ハヅナ</title>
+<title xml:lang="en">Hazuna</title>
+<title xml:lang="x-jat">Hazuna</title>
+</episode>
+<episode id="34200" update="2011-10-01">
+<epno type="1">13</epno>
+<length>25</length>
+<airdate>2005-03-26</airdate>
+<rating votes="3">4.51</rating>
+<title xml:lang="ja">永遠の大樹</title>
+<title xml:lang="en">Tree of Eternity</title>
+<title xml:lang="x-jat">Eien no Taiju</title>
+</episode>
+<episode id="34201" update="2011-10-01">
+<epno type="1">12</epno>
+<length>25</length>
+<airdate>2005-03-19</airdate>
+<rating votes="2">2.80</rating>
+<title xml:lang="ja">闇の世界</title>
+<title xml:lang="en">Dark World</title>
+<title xml:lang="x-jat">Yami no Sekai</title>
+</episode>
+<episode id="34202" update="2011-10-01">
+<epno type="1">11</epno>
+<length>25</length>
+<airdate>2005-03-12</airdate>
+<rating votes="2">2.80</rating>
+<title xml:lang="ja">カレンデュラ</title>
+<title xml:lang="en">Calendula</title>
+<title xml:lang="x-jat">Calendula</title>
+</episode>
+<episode id="34203" update="2011-10-01">
+<epno type="1">10</epno>
+<length>25</length>
+<airdate>2005-03-05</airdate>
+<rating votes="2">4.50</rating>
+<title xml:lang="ja">真実</title>
+<title xml:lang="en">Truth</title>
+<title xml:lang="x-jat">Shinjitsu</title>
+</episode>
+<episode id="34204" update="2011-10-01">
+<epno type="1">9</epno>
+<length>25</length>
+<airdate>2005-02-26</airdate>
+<rating votes="2">4.50</rating>
+<title xml:lang="ja">セプティム</title>
+<title xml:lang="en">Septem</title>
+<title xml:lang="x-jat">Septem</title>
+</episode>
+<episode id="34205" update="2011-10-01">
+<epno type="1">8</epno>
+<length>25</length>
+<airdate>2005-02-19</airdate>
+<rating votes="2">4.50</rating>
+<title xml:lang="ja">フェンネル</title>
+<title xml:lang="en">Fennel</title>
+<title xml:lang="x-jat">Fennel</title>
+</episode>
+<episode id="127852" update="2011-01-30">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>2005-01-01</airdate>
+<title xml:lang="en">Ending</title>
+</episode>
+<episode id="127853" update="2011-01-30">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2005-01-01</airdate>
+<title xml:lang="en">Opening</title>
+</episode>
+</episodes>
+</anime>
