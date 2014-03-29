@@ -1,0 +1,1 @@
+import extensions.ann_collector.impl
